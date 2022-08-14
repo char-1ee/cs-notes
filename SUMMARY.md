@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Page 1](README.md)
-
 ## Java
 
-* [Optimize your Java code](java/optimize-your-java-code.md)
+* [Optimize your Java code](README.md)
 * [If-else optimization](java/if-else-optimization.md)
 
 ## Android
@@ -35,3 +33,7 @@
 ## Debug
 
 * [Release linked list nodes](debug/release-linked-list-nodes.md)
+
+## Job
+
+* [Interview](job/interview.md)
