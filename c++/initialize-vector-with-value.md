@@ -62,6 +62,14 @@ static const int arr[] = {10, 20, 30};
 vector<int> v INIT_FROM_ARRAY(arr);
 ```
 
+### Initialize vector with 0
+
+```cpp
+int number_of_elements = 10;
+int default_value = 1;
+std::vector<int> vec(number_of_elements, default_value);
+```
+
 ### Initialize array with 0
 
 Unless that value is 0 (in which case you can omit some part of the initializer and the corresponding elements will be initialized to 0), there's no easy way.

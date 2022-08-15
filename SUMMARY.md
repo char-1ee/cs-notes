@@ -18,6 +18,7 @@
 * [Reference vs. Pointer](c++/reference-vs.-pointer.md)
 * [Priority Queue](c++/priority-queue.md)
 * [The Rule of Three](c++/the-rule-of-three.md)
+* [Iterator increment](c++/iterator-increment.md)
 
 ## Design pattern
 
