@@ -4,7 +4,6 @@
 
 * [Optimize your Java code](README.md)
 * [If-else optimization](java/if-else-optimization.md)
-* [Is integer](java/is-integer.md)
 
 ## Android
 
@@ -33,6 +32,7 @@
 * [Brian Kernighan algorithm](algorithm/brian-kernighan-algorithm.md)
 * [Big O notation](algorithm/big-o-notation.md)
 * [Binary Search](algorithm/binary-search.md)
+* [Is integer](algorithm/is-integer.md)
 
 ## Debug
 
@@ -41,3 +41,16 @@
 ## Job
 
 * [Interview](job/interview.md)
+
+## OS
+
+* [Zombie process vs. Orphan process](os/zombie-process-vs.-orphan-process.md)
+* [Shell scripting](os/shell-scripting.md)
+
+## Network
+
+* [REST](network/rest.md)
+
+## Other
+
+* [How to maintain login status](other/how-to-maintain-login-status.md)
