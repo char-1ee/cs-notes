@@ -4,6 +4,7 @@
 
 * [Optimize your Java code](README.md)
 * [If-else optimization](java/if-else-optimization.md)
+* [Is integer](java/is-integer.md)
 
 ## Android
 
@@ -25,11 +26,13 @@
 * [Chain-of-responsibility](design-pattern/chain-of-responsibility.md)
 * [Tree-of-responsibility](design-pattern/tree-of-responsibility.md)
 * [MVC-MVVM](design-pattern/mvc-mvvm.md)
+* [Factory Pattern](design-pattern/factory-pattern.md)
 
 ## Algorithm
 
+* [Brian Kernighan algorithm](algorithm/brian-kernighan-algorithm.md)
+* [Big O notation](algorithm/big-o-notation.md)
 * [Binary Search](algorithm/binary-search.md)
-* [Is integer](algorithm/is-integer.md)
 
 ## Debug
 
