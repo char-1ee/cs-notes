@@ -34,16 +34,9 @@
 * [Binary Search](algorithm/binary-search.md)
 * [Is integer](algorithm/is-integer.md)
 
-## Debug
-
-* [Release linked list nodes](debug/release-linked-list-nodes.md)
-
-## Job
-
-* [Interview](job/interview.md)
-
 ## OS
 
+* [PID](os/pid.md)
 * [Zombie process vs. Orphan process](os/zombie-process-vs.-orphan-process.md)
 * [Shell scripting](os/shell-scripting.md)
 
@@ -54,3 +47,5 @@
 ## Other
 
 * [How to maintain login status](other/how-to-maintain-login-status.md)
+* [Interview](other/interview.md)
+* [Release linked list nodes](other/release-linked-list-nodes.md)
