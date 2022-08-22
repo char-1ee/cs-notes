@@ -46,6 +46,7 @@
 
 ## Other
 
+* [fix: out-of-bound index for std::vector](other/fix-out-of-bound-index-for-std-vector.md)
 * [How to maintain login status](other/how-to-maintain-login-status.md)
 * [Interview](other/interview.md)
 * [Release linked list nodes](other/release-linked-list-nodes.md)
