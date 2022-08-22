@@ -29,10 +29,11 @@
 
 ## Algorithm
 
-* [Brian Kernighan algorithm](algorithm/brian-kernighan-algorithm.md)
+* [Monotonic Stack](algorithm/monotonic-stack.md)
+* [Brian Kernighan Algorithm](algorithm/brian-kernighan-algorithm.md)
 * [Big O notation](algorithm/big-o-notation.md)
 * [Binary Search](algorithm/binary-search.md)
-* [Is integer](algorithm/is-integer.md)
+* [Is an Integer](algorithm/is-an-integer.md)
 
 ## OS
 
@@ -49,4 +50,4 @@
 * [fix: out-of-bound index for std::vector](other/fix-out-of-bound-index-for-std-vector.md)
 * [How to maintain login status](other/how-to-maintain-login-status.md)
 * [Interview](other/interview.md)
-* [Release linked list nodes](other/release-linked-list-nodes.md)
+* [fix: delete a linked list](other/fix-delete-a-linked-list.md)

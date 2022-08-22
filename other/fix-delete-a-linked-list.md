@@ -1,8 +1,8 @@
 ---
-description: 'error message: free(): double free detected in tcache 2'
+description: 'free(): double free detected in tcache 2'
 ---
 
-# Release linked list nodes
+# fix: delete a linked list
 
 **Environment**
 
