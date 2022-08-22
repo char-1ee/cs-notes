@@ -34,11 +34,19 @@ or find the first smaller element than it when iterating array from left. Say we
 
 Similarly above applys to monotonic decreasing stacks.
 
-### Reference
+### Insights
+
+How to identify a monotonic stack problem?
+
+1. Increasing/decreasing trend. There is increasing trend, push into the stack. When there is an elements breaks the trend, pop from the stack.&#x20;
+2. Find next/previous greater/smaller in a list with a _linear time_ constraint. &#x20;
+
+### References
 
 * [Zhihu - Monotonic stack](https://www.zhihu.com/search?type=content\&q=%E5%8D%95%E8%B0%83%E6%A0%88)
 * [LeetCode Monotonic Stack Summary](https://www.cnblogs.com/grandyang/p/8887985.html)
 * [Gitbook - Monotonic Stack](https://liuzhenglaichn.gitbook.io/algorithm/monotonic-stack)
+* [LeetCode - Monotonic Stack Discuss](https://leetcode.com/tag/monotonic-stack/discuss/2347639/A-comprehensive-guide-and-template-for-monotonic-stack-based-problems)
 
 ### Examples
 
