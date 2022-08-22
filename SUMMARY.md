@@ -19,6 +19,7 @@
 * [Priority Queue](c++/priority-queue.md)
 * [The Rule of Three](c++/the-rule-of-three.md)
 * [Iterator increment](c++/iterator-increment.md)
+* [C](c++/c.md)
 
 ## Design pattern
 
@@ -48,6 +49,6 @@
 ## Other
 
 * [fix: out-of-bound index for std::vector](other/fix-out-of-bound-index-for-std-vector.md)
+* [fix: delete a linked list](other/fix-delete-a-linked-list.md)
 * [How to maintain login status](other/how-to-maintain-login-status.md)
 * [Interview](other/interview.md)
-* [fix: delete a linked list](other/fix-delete-a-linked-list.md)
