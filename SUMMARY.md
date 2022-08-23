@@ -9,6 +9,7 @@
 
 * [Concurrent database access](android/concurrent-database-access.md)
 * [Raw database model](android/raw-database-model.md)
+* [Login screen checklist](android/login-screen-checklist.md)
 
 ## C++
 
@@ -32,13 +33,14 @@
 
 * [Monotonic Stack](algorithm/monotonic-stack.md)
 * [Brian Kernighan Algorithm](algorithm/brian-kernighan-algorithm.md)
-* [Big O notation](algorithm/big-o-notation.md)
+* [Asymptotic Analysis](algorithm/asymptotic-analysis.md)
 * [Binary Search](algorithm/binary-search.md)
 * [Is an Integer](algorithm/is-an-integer.md)
 
 ## OS
 
-* [PID](os/pid.md)
+* [Library Procedure](os/library-procedure.md)
+* [Process Identifier](os/process-identifier.md)
 * [Zombie process vs. Orphan process](os/zombie-process-vs.-orphan-process.md)
 * [Shell scripting](os/shell-scripting.md)
 

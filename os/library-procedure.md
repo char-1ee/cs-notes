@@ -1,0 +1,5 @@
+# Library Procedure
+
+Corresponding to each system call is a library procedure that user programs can call. This procedure puts the parameters of the system call in a specified place, such as the machine registers; it then issues a **TRAP** instruction, which is a kind of protected procedure call, to start the operating system. The purpose of the library procedure is to hide the details of the **TRAP** instruction and make system calls look like ordinary procedure calls.
+
+When the operating system gets control after the **TRAP**, it examines the parameters to see if they are valid, and if so, performs the work requested. When it is finished, the operating system puts a status code in a register, telling whether it succeeded or failed, and executes a **return-from-trap** instruction to return control back to the library procedure. The library procedure then returns to the caller in the usual way, returning the status code as a function value. Sometimes additional values are returned in the parameters.
