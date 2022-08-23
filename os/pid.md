@@ -2,7 +2,7 @@
 description: Process Identifier
 ---
 
-# PID
+# Process Identifier
 
 In [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems, new processes are created by the [`fork()`](https://en.wikipedia.org/wiki/Fork\_\(operating\_system\)) [system call](https://en.wikipedia.org/wiki/System\_call). The PID is returned to the [parent process](https://en.wikipedia.org/wiki/Parent\_process), enabling it to refer to the child in further function calls. The parent may, for example, wait for the child to terminate with the [`waitpid()`](https://en.wikipedia.org/wiki/Waitpid\(\)) function, or terminate the process with [`kill()`](https://en.wikipedia.org/wiki/Kill\(\)).
 
