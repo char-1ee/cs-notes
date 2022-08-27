@@ -22,6 +22,7 @@
 * [Priority Queue](c++/priority-queue.md)
 * [The Rule of Three](c++/the-rule-of-three.md)
 * [Iterator increment](c++/iterator-increment.md)
+* [emplace\_back() vs. push\_back()](c++/emplace\_back-vs.-push\_back.md)
 * [C](c++/c.md)
 
 ## Design pattern
