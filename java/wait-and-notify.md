@@ -3,7 +3,7 @@
 * `Object.wait()` to suspend a thread
 * `Object.notify()` to wake a thread up
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### __[_wait()_ ](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#wait\(\))
 
@@ -51,14 +51,14 @@ public class Data {
     
     // True if receiver should wait
     // False if sender should wait
-    private boolean transfer = true;
- 
+    private static boolean transfer = true;
+    
     public synchronized String receive() {
         while (transfer) {
             try {
                 wait();
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt(); 
+                Thread.currentThread().interrupt();
                 System.out.println("Thread Interrupted");
             }
         }
@@ -68,13 +68,13 @@ public class Data {
         notifyAll();
         return returnPacket;
     }
- 
+    
     public synchronized void send(String packet) {
         while (!transfer) {
-            try { 
+            try {
                 wait();
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt(); 
+                Thread.currentThread().interrupt();
                 System.out.println("Thread Interrupted");
             }
         }
