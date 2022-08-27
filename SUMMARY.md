@@ -4,6 +4,7 @@
 
 * [Optimize your Java code](README.md)
 * [If-else optimization](java/if-else-optimization.md)
+* [wait() and notify()](java/wait-and-notify.md)
 
 ## Android
 
