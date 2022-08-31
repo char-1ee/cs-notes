@@ -1,10 +1,10 @@
-# Brian Kernighan algorithm
+# Brian Kernighan Algorithm
 
 ### Description
 
 Given any integer x,  f(x) = x & (x - 1).  f(x) is the result for x to unset its rightmost set bit.
 
-![example](<../.gitbook/assets/image (1).png>)
+![example](<../.gitbook/assets/image (1) (1).png>)
 
 Similarly, x & (\~x + 1) fetchs out the rightmost set bit.
 

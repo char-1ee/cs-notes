@@ -57,3 +57,4 @@
 * [fix: delete a linked list](other/fix-delete-a-linked-list.md)
 * [How to maintain login status](other/how-to-maintain-login-status.md)
 * [Interview](other/interview.md)
+* [Database Indexes](other/database-indexes.md)
