@@ -34,6 +34,7 @@
 
 ## Algorithm
 
+* [Longest Increasing Subsequence](algorithm/longest-increasing-subsequence.md)
 * [Monotonic Stack](algorithm/monotonic-stack.md)
 * [Brian Kernighan Algorithm](algorithm/brian-kernighan-algorithm.md)
 * [Asymptotic Analysis](algorithm/big-o-notation.md)
@@ -52,10 +53,10 @@
 * [Microservice](system-design/microservice.md)
 * [REST](system-design/rest.md)
 * [How to maintain login status](system-design/how-to-maintain-login-status.md)
+* [Database Indexes](system-design/database-indexes.md)
 
 ## Other
 
 * [fix: out-of-bound index for std::vector](other/fix-out-of-bound-index-for-std-vector.md)
 * [fix: delete a linked list](other/fix-delete-a-linked-list.md)
 * [Interview](other/interview.md)
-* [Database Indexes](other/database-indexes.md)

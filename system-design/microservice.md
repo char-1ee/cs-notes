@@ -4,7 +4,7 @@ description: A typical microservice architecture.
 
 # Microservice
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Typical architecture</p></figcaption></figure>
 
 #### What are mian components?
 
@@ -22,4 +22,4 @@ description: A typical microservice architecture.
 * Each domain can be independently maintained by a dedicated team.
 * Business requirments can be customized in each domain and better supported.
 
-<figure><img src="https://lh5.googleusercontent.com/axSRzD0no2BNCYASAcDWXrvVpM1XcSL80mP4WQ0xs8P6vksJgMfbjoP70fsBmOLGm7kDTyRnUOumzuRqBkUm678p9UXHaIfdkQUnwG77GMghUb9qsMB5II4AFHK7NPjJsH9Kx44vhWj5k1cD8X9UiLo" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lh5.googleusercontent.com/axSRzD0no2BNCYASAcDWXrvVpM1XcSL80mP4WQ0xs8P6vksJgMfbjoP70fsBmOLGm7kDTyRnUOumzuRqBkUm678p9UXHaIfdkQUnwG77GMghUb9qsMB5II4AFHK7NPjJsH9Kx44vhWj5k1cD8X9UiLo" alt=""><figcaption><p>Our AWS architecture</p></figcaption></figure>
