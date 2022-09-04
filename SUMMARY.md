@@ -46,8 +46,9 @@
 * [Library Procedure](os/library-procedure.md)
 * [Process Identifier](os/pid.md)
 * [Zombie process vs. Orphan process](os/zombie-process-vs.-orphan-process.md)
-* [Shell scripting](os/shell-scripting.md)
+* [Shell Scripting](os/shell-scripting.md)
 * [Error Handling](os/error-handling.md)
+* [Socket](os/socket.md)
 
 ## System design
 

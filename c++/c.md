@@ -34,6 +34,14 @@ SIZE_MAX = 18446744073709551615
 size = 400
 ```
 
+### ssize\_t and size\_t
+
+```c
+ssize_t read(int fd, void* buf, size_t n); // return byte read if success, nor return -1
+```
+
+Difference between `ssize_t` _and_ `size_t`, in x86-64 systems, `size_t` is defined as `unsigned long`, while `ssize_t` is defined as `long`. read system call must return a signed value because it must return -1 when encounter error. &#x20;
+
 ### void\*
 
 A pointer to `void` is a "generic" pointer type. A `void *` can be converted to any other pointer type without an explicit cast. You cannot dereference a `void *` or do pointer arithmetic with it; you must convert it to a pointer to a complete data type first.
