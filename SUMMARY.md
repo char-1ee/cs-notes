@@ -50,6 +50,7 @@
 * [Shell Scripting](os/shell-scripting.md)
 * [Error Handling](os/error-handling.md)
 * [Socket](os/socket.md)
+* [CGI](os/cgi.md)
 
 ## System design
 
@@ -57,6 +58,7 @@
 * [REST](system-design/rest.md)
 * [How to maintain login status](system-design/how-to-maintain-login-status.md)
 * [Database Indexes](system-design/database-indexes.md)
+* [Thread-safe HashMap](system-design/thread-safe-hashmap.md)
 
 ## Other
 

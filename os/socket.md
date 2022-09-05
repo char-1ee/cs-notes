@@ -134,7 +134,7 @@ const char *gai_strerror(int errcode);
 * The `host` argument to getaddrinfo can be either a domain name or a numeric address (e.g., a dotted-decimal IP address).&#x20;
 * The `service` argument can be either a service name (e.g., http) or a decimal port number.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Given host and service (the two components of a socket address), getaddrinfo returns a result that points to a linked list of addrinfo structures, each of which points to a socket address structure that corresponds to host and service.
 

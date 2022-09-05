@@ -8,9 +8,10 @@ description: LCS and DP
 
 Recursion with memoization
 
-<pre class="language-cpp"><code class="lang-cpp">#include &#x3C;algorithm>
-#include &#x3C;cstring>
-#include &#x3C;iostream>
+```cpp
+#include <algorithm>
+#include <cstring>
+#include <iostream>
 using namespace std;
 
 const int MAXN = 505;
@@ -18,8 +19,8 @@ char s1[MAXN], s2[MAXN];
 int dp[MAXN][MAXN];
 
 int lcs(int n1, int n2)
-<strong>{
-</strong>    if (dp[n1][n2] != -1)
+{
+    if (dp[n1][n2] != -1)
         return dp[n1][n2];
     if (n1 == 0 || n2 == 0)
         dp[n1][n2] = 0;
@@ -34,10 +35,11 @@ int main()
     while (cin >> s1 >> s2)
     {
         memset(dp, -1, sizeof(dp));
-        cout &#x3C;&#x3C; lcs(strlen(s1), strlen(s2)) &#x3C;&#x3C; endl;
+        cout << lcs(strlen(s1), strlen(s2)) << endl;
     }
     return 0;
-}</code></pre>
+}
+```
 
 Or iteration
 
