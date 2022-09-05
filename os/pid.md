@@ -12,4 +12,4 @@ Process IDs, in the first place, are usually allocated on a sequential basis, be
 
 The current process ID is provided by a `getpid()` system call, or as a variable `$$` in shell. The process ID of a parent process is obtainable by a `getppid()` system call.
 
-On [Linux](https://en.wikipedia.org/wiki/Linux), the maximum process ID is given by the pseudo-file `/proc/sys/kernel/pid_max`.[\[2\]](https://en.wikipedia.org/wiki/Process\_identifier#cite\_note-2)
+On [Linux](https://en.wikipedia.org/wiki/Linux), the maximum process ID is given by the pseudo-file `/proc/sys/kernel/pid_max`.[\[2\]](https://en.wikipedia.org/wiki/Process\_identifier#cite\_note-2) which is 32768 (2^15) for 32 bit systems.

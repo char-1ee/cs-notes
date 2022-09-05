@@ -5,7 +5,9 @@
 * [Optimize your Java code](README.md)
 * [If-else optimization](java/if-else-optimization.md)
 * [wait() and notify()](java/wait-and-notify.md)
+* [Thread.join()](java/thread.join.md)
 * [Blocking Queue](java/blocking-queue.md)
+* [Concurrency](java/concurrency.md)
 
 ## Android
 
@@ -59,6 +61,7 @@
 * [How to maintain login status](system-design/how-to-maintain-login-status.md)
 * [Database Indexes](system-design/database-indexes.md)
 * [Thread-safe HashMap](system-design/thread-safe-hashmap.md)
+* [Tiny Web Server](system-design/tiny-web-server.md)
 
 ## Other
 

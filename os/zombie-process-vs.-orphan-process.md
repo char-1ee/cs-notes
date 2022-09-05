@@ -4,7 +4,7 @@ description: https://zhuanlan.zhihu.com/p/363005905
 
 # Zombie process vs. Orphan process
 
-In UNIX system, normally child process is created by parenrt process. The termination of child process is a asynchronous progess to its parent process, that is, parent process will never know when its child process terminates. When a process complete its job, its parent process must call `wait()` or `waitpid()` to get termination status of the child process.
+In UNIX system, normally child process is created by parent process. The termination of child process is a asynchronous progess to its parent process, that is, parent process will never know when its child process terminates. When a process complete its job, its parent process must call `wait()` or `waitpid()` to get termination status of the child process.
 
 In this context, we have **zombie process** and **orphan process.**
 
