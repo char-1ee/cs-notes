@@ -6,6 +6,7 @@
 * [If-else optimization](java/if-else-optimization.md)
 * [wait() and notify()](java/wait-and-notify.md)
 * [Thread.join()](java/thread.join.md)
+* [Object-level Lock and Class-level Lock](java/object-level-lock-and-class-level-lock.md)
 * [Blocking Queue](java/blocking-queue.md)
 * [Concurrency](java/concurrency.md)
 
@@ -62,6 +63,7 @@
 * [Database Indexes](system-design/database-indexes.md)
 * [Thread-safe HashMap](system-design/thread-safe-hashmap.md)
 * [Tiny Web Server](system-design/tiny-web-server.md)
+* [Print odd and even using 2 threads](system-design/print-odd-and-even-using-2-threads.md)
 
 ## Other
 
