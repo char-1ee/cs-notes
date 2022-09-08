@@ -119,6 +119,7 @@ class SharedPrinter {
 class Even implements Runnable {
     private SharedPrinter sp;
     private int max;
+    // Constructor(sp, max)
     
     @Override
     public void run() {
@@ -131,6 +132,7 @@ class Even implements Runnable {
 class Odd implements Runnable {
     private SharedPrinter sp;
     private int max;
+    // Constructor(sp, max)
     
     @Override
     public void run() {
@@ -144,8 +146,8 @@ class Odd implements Runnable {
 ```java
 public static void main(String[] args) {
     SharedPrinter sp = new SharedPrinter();
-    Thread oddThread = new Thread(new Odd(), "Odd");
-    Thread evenThread = new Thread(new Even(), "Even");
+    Thread oddThread = new Thread(new Odd(sp, 10), "Odd");
+    Thread evenThread = new Thread(new Even(sp, 10), "Even");
     
     oddThread.start();
     evenThread.start();

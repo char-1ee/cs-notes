@@ -4,6 +4,14 @@ description: LCS and DP
 
 # Longest Common Subsequence
 
+Longets Commone Subsequence problems (LCS). Define
+
+* s\[-1] as the last element in sequence s
+* s\[:-1] as the subsequence removed last element in s
+* LCS(s1, s2) as the LCS between s1 and s2
+
+Then we have the transitivity function:
+
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Recursion with memoization

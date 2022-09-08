@@ -33,8 +33,9 @@
 * [Chain-of-responsibility](design-pattern/chain-of-responsibility.md)
 * [Tree-of-responsibility](design-pattern/tree-of-responsibility.md)
 * [MVC-MVVM](design-pattern/mvc-mvvm.md)
-* [Factory Pattern](design-pattern/factory-pattern.md)
 * [Singleton Pattern](design-pattern/singleton-pattern.md)
+* [Factory Pattern](design-pattern/factory-pattern.md)
+* [Singleton Pattern](design-pattern/singleton-pattern-1.md)
 
 ## Algorithm
 
@@ -54,7 +55,7 @@
 * [Shell Scripting](os/shell-scripting.md)
 * [Error Handling](os/error-handling.md)
 * [Socket](os/socket.md)
-* [CGI](os/cgi.md)
+* [Common Gateway Interface](os/common-gateway-interface.md)
 
 ## System design
 

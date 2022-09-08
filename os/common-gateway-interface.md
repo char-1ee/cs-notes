@@ -1,8 +1,8 @@
 ---
-description: Common Gateway Interface
+description: CGI
 ---
 
-# CGI
+# Common Gateway Interface
 
 A standard used when web server serving dynamic content to clients. It solves problems includes:
 
