@@ -34,6 +34,7 @@
 * [Tree-of-responsibility](design-pattern/tree-of-responsibility.md)
 * [MVC-MVVM](design-pattern/mvc-mvvm.md)
 * [Factory Pattern](design-pattern/factory-pattern.md)
+* [Singleton Pattern](design-pattern/singleton-pattern.md)
 
 ## Algorithm
 
