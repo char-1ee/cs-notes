@@ -22,3 +22,4 @@ References
 * Leetcode 54. Maximum Sum Subarray
 * Leetcode Best time to Buy and Sell Stock
 * Leetcode Maximum Sum Circular Subarray
+* [Zhihu](https://zhuanlan.zhihu.com/p/96014673)

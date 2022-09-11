@@ -47,6 +47,7 @@
 * [Asymptotic Analysis](algorithm/big-o-notation.md)
 * [Binary Search](algorithm/binary-search.md)
 * [Quick sort partition](algorithm/quick-sort-partition.md)
+* [Date](algorithm/date.md)
 * [Is an Integer](algorithm/is-an-integer.md)
 
 ## OS
