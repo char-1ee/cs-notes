@@ -39,6 +39,7 @@
 
 ## Algorithm
 
+* [Kadane's Algorithm](algorithm/kadanes-algorithm.md)
 * [Longest Common Subsequence](algorithm/longest-common-subsequence.md)
 * [Longest Increasing Subsequence](algorithm/longest-increasing-subsequence.md)
 * [Monotonic Stack](algorithm/monotonic-stack.md)
