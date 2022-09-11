@@ -39,6 +39,7 @@
 
 ## Algorithm
 
+* [LRU-K and 2Q Algorithm](algorithm/lru-k-and-2q-algorithm.md)
 * [Kadane's Algorithm](algorithm/kadanes-algorithm.md)
 * [Longest Common Subsequence](algorithm/longest-common-subsequence.md)
 * [Longest Increasing Subsequence](algorithm/longest-increasing-subsequence.md)
@@ -48,7 +49,7 @@
 * [Binary Search](algorithm/binary-search.md)
 * [Quick sort partition](algorithm/quick-sort-partition.md)
 * [Date](algorithm/date.md)
-* [Is an Integer](algorithm/is-an-integer.md)
+* [Check given x is an Integer](algorithm/check-given-x-is-an-integer.md)
 
 ## OS
 

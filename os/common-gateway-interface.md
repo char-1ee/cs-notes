@@ -24,7 +24,7 @@ it calls `fork` to create a child process and calls `execve` to run the /cgi-bin
 
 CGI defines a number of other environment variables that a CGI program can expect to be set when it runs.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Where Does the Child Send Its Output?
 
