@@ -26,6 +26,7 @@
 * [The Rule of Three](c++/the-rule-of-three.md)
 * [Iterator increment](c++/iterator-increment.md)
 * [emplace\_back() vs. push\_back()](c++/emplace\_back-vs.-push\_back.md)
+* [g++ cheatsheet](c++/g++-cheatsheet.md)
 * [C++11 and C++14](c++/c++11-and-c++14.md)
 * [C](c++/c.md)
 
@@ -34,9 +35,8 @@
 * [Chain-of-responsibility](design-pattern/chain-of-responsibility.md)
 * [Tree-of-responsibility](design-pattern/tree-of-responsibility.md)
 * [MVC-MVVM](design-pattern/mvc-mvvm.md)
-* [Singleton Pattern](design-pattern/singleton-pattern.md)
 * [Factory Pattern](design-pattern/factory-pattern.md)
-* [Singleton Pattern](design-pattern/singleton-pattern-1.md)
+* [Singleton Pattern](design-pattern/singleton-pattern.md)
 
 ## Algorithm
 
