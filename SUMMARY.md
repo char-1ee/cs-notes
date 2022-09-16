@@ -61,6 +61,7 @@
 * [Error Handling](os/error-handling.md)
 * [Socket](os/socket.md)
 * [Common Gateway Interface](os/common-gateway-interface.md)
+* [IO paradigms](os/io-paradigms.md)
 
 ## System design
 
