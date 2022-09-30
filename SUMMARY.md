@@ -72,6 +72,7 @@
 * [Thread-safe HashMap](system-design/thread-safe-hashmap.md)
 * [Tiny Web Server](system-design/tiny-web-server.md)
 * [Print odd and even using 2 threads](system-design/print-odd-and-even-using-2-threads.md)
+* [Better GitHub Workflow](system-design/better-github-workflow.md)
 
 ## Other
 
