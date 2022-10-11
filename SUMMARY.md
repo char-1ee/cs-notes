@@ -9,6 +9,7 @@
 * [Object-level Lock and Class-level Lock](java/object-level-lock-and-class-level-lock.md)
 * [Blocking Queue](java/blocking-queue.md)
 * [Concurrency](java/concurrency.md)
+* [HashMap](java/hashmap.md)
 
 ## Android
 
@@ -42,6 +43,7 @@
 
 ## Algorithm
 
+* [Sorting](algorithm/sorting.md)
 * [LRU-K and 2Q Algorithm](algorithm/lru-k-and-2q-algorithm.md)
 * [Kadane's Algorithm](algorithm/kadanes-algorithm.md)
 * [Longest Common Subsequence](algorithm/longest-common-subsequence.md)
@@ -71,7 +73,6 @@
 * [REST](system-design/rest.md)
 * [How to maintain login status](system-design/how-to-maintain-login-status.md)
 * [Database Indexes](system-design/database-indexes.md)
-* [Thread-safe HashMap](system-design/thread-safe-hashmap.md)
 * [Tiny Web Server](system-design/tiny-web-server.md)
 * [Print odd and even using 2 threads](system-design/print-odd-and-even-using-2-threads.md)
 * [Better GitHub Workflow](system-design/better-github-workflow.md)

@@ -8,6 +8,8 @@ description: >-
 
 ### _volatile_
 
+Ensure memory visibility but cannot ensure atomic operations.
+
 由于 `Java` 内存模型(`JMM`)规定，所有的变量都存放在主内存中，而每个线程都有着自己的工作内存(高速缓存)。
 
 线程在工作时，需要将主内存中的数据拷贝到工作内存中。这样对数据的任何操作都是基于工作内存(效率提高)，并且不能直接操作主内存以及其他线程工作内存中的数据，之后再将更新之后的数据刷新到主内存中。(工作内存 - stack, 主存 - heap)
