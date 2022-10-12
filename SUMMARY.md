@@ -9,7 +9,8 @@
 * [Object-level Lock and Class-level Lock](java/object-level-lock-and-class-level-lock.md)
 * [Blocking Queue](java/blocking-queue.md)
 * [Concurrency](java/concurrency.md)
-* [HashMap](java/hashmap.md)
+* [HashMap](system-design/thread-safe-hashmap.md)
+* [Control Access](java/control-access.md)
 
 ## Android
 

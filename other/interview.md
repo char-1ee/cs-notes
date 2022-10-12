@@ -397,13 +397,15 @@ Process is a program in execution while thread is a segment of a process, which 
       但是依然有缺点，可能会导致低优先级的进程永远不会运行。
   *   Multilevel Feedback Queue (HPF + RR), MFQ
 
-      <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWdrci5jbi1iai51ZmlsZW9zLmNvbS8zYjIxNTA5YS03ZWJhLTQ3YTEtYmMxYi1kOTAyYjZjNjRlZmQucG5n?x-oss-process=image/format.png" alt="多级反馈队列" data-size="original">
+
 
       * 设置了多个队列，赋予每个队列不同的优先级，每个**队列优先级从高到低**，同时**优先级越高时间片越短**；
       * 新的进程会被放入到第一级队列的末尾，按先来先服务的原则排队等待被调度，如果在第一级队列规定的时间片没运行完成，则将其转入到第二级队列的末尾，以此类推，直至完成；
       * 当较高优先级的队列为空，才调度较低优先级的队列中的进程运行。如果进程运行时，有新进程进入较高优先级的队列，则停止当前运行的进程并将其移入到原队列末尾，接着让较高优先级的进程运行；
 
       可以发现，对于短作业可能可以在第一级队列很快被处理完。对于长作业，如果在第一级队列处理不完，可以移入下次队列等待被执行，虽然等待的时间变长了，但是运行时间也会更长了，所以该算法很好的**兼顾了长短作业，同时有较好的响应时间。**
+
+      <figure><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWdrci5jbi1iai51ZmlsZW9zLmNvbS8zYjIxNTA5YS03ZWJhLTQ3YTEtYmMxYi1kOTAyYjZjNjRlZmQucG5n?x-oss-process=image/format.png" alt=""><figcaption></figcaption></figure>
 
 #### Process sync
 
@@ -435,7 +437,7 @@ Process is a program in execution while thread is a segment of a process, which 
 
     * Spin lock. Busy waiting, for sole processor must have a preemptive scheduler.
 
-    ```
+    ```c
     typedef struct lock_t {
         int flag;
     } lock_t;
@@ -457,7 +459,7 @@ Process is a program in execution while thread is a segment of a process, which 
 
     * Without spin
 
-    ```
+    ```c
     type struct lock_t {
         int flag;
         queue_t *q;
@@ -497,7 +499,7 @@ Process is a program in execution while thread is a segment of a process, which 
     * P operation: sem--, if sem < 0, then block
     * V operation: sem++, if sem >= 0, then call a waiting thread/process
 
-    ```
+    ```c
     type struct sem_t {
         int sem;
         queue_t *q;
@@ -540,9 +542,9 @@ Process is a program in execution while thread is a segment of a process, which 
 
     ![生产者-消费者模型](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWdrci5jbi1iai51ZmlsZW9zLmNvbS80NWYzNGZhMC1jNTE0LTQxZWEtYTljNC1iNzkxOGZkMzk3ZDMucG5n?x-oss-process=image/format.png)
 
-    <img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWdrci5jbi1iai51ZmlsZW9zLmNvbS80ZjE3ZWUyNC0xNjMzLTRlMGEtYTkzNS02NTkzZmM3ZTA3MzkucG5n?x-oss-process=image/format.png" alt="img" data-size="original">
 
-    ```
+
+    ```c
     #define N 100
     semaphore mutex = 1;
     semaphore emptyBuffers = N;
@@ -656,6 +658,8 @@ Process is a program in execution while thread is a segment of a process, which 
         }
     }
     ```
+
+    <figure><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9pbWdrci5jbi1iai51ZmlsZW9zLmNvbS80ZjE3ZWUyNC0xNjMzLTRlMGEtYTkzNS02NTkzZmM3ZTA3MzkucG5n?x-oss-process=image/format.png" alt=""><figcaption></figcaption></figure>
 * [Dining philosophers problem](https://www.cnblogs.com/xiaolincoding/p/13346658.html)
   * Semaphore -> but when all take his left, deadlock
   * Add a mutex -> only one can eat every time
@@ -1085,7 +1089,7 @@ Client create an instance of strategy class which apply flexibly according to ar
 
 #### [Zombie process vs. Orphan process](https://zhuanlan.zhihu.com/p/363005905)
 
-In UNIX system, normally child process is created by parenrt process. The termination of child process is a asynchronous progess to its parent process, that is, parent process will never know when its child process terminates. When a process complete its job, its parent process must call `wait()` or `waitpid()` to get termination status of the child process.
+In UNIX system, normally child process is created by parent process. The termination of child process is a asynchronous progess to its parent process, that is, parent process will never know when its child process terminates. When a process complete its job, its parent process must call `wait()` or `waitpid()` to get termination status of the child process.
 
 In this context, we have **zombie process** and **orphan process.**
 
