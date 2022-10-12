@@ -1,3 +1,2 @@
 # Factory Pattern
 
-Fa

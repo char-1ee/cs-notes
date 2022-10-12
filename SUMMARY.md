@@ -4,6 +4,7 @@
 
 * [Optimize your Java code](README.md)
 * [If-else optimization](java/if-else-optimization.md)
+* [hashCode() and equals()](java/hashcode-and-equals.md)
 * [wait() and notify()](java/wait-and-notify.md)
 * [Thread.join()](java/thread.join.md)
 * [Object-level Lock and Class-level Lock](java/object-level-lock-and-class-level-lock.md)
