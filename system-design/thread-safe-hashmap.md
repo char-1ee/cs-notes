@@ -13,3 +13,8 @@
 {% embed url="https://www.iteye.com/blog/liqianglv2005-2025016" %}
 
 {% embed url="https://coolshell.cn/articles/9606.html" %}
+
+### Two methods solving hash collisions
+
+1. Linear probing (open addressing)
+2. Seperate chaining
