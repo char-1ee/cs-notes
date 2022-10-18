@@ -65,14 +65,12 @@
 * [Zombie process vs. Orphan process](os/zombie-process-vs.-orphan-process.md)
 * [Shell Scripting](os/shell-scripting.md)
 * [Error Handling](os/error-handling.md)
-* [Socket](os/socket.md)
 * [Common Gateway Interface](os/common-gateway-interface.md)
 * [IO paradigms](os/io-paradigms.md)
 
 ## System design
 
 * [Microservice](system-design/microservice.md)
-* [REST](system-design/rest.md)
 * [How to maintain login status](system-design/how-to-maintain-login-status.md)
 * [Database Indexes](system-design/database-indexes.md)
 * [Tiny Web Server](system-design/tiny-web-server.md)
@@ -82,6 +80,9 @@
 ## NETWORK
 
 * [TCP and UDP](network/tcp-and-udp.md)
+* [REST](network/rest.md)
+* [Socket](network/socket.md)
+* [Network Centric](network/network-centric.md)
 
 ## Other
 
