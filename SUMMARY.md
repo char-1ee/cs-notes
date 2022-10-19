@@ -57,6 +57,7 @@
 * [Quick sort partition](algorithm/quick-sort-partition.md)
 * [Date](algorithm/date.md)
 * [Check given x is an Integer](algorithm/check-given-x-is-an-integer.md)
+* [How to start algo solution](algorithm/how-to-start-algo-solution.md)
 
 ## OS
 
