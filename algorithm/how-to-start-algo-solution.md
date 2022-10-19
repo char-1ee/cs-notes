@@ -8,6 +8,6 @@ description: 起手式
 auto __FAST_IO__ = []() noexcept {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
-    std::cout.tie(nullptr);
+    std::cout.tie(nullptr); // cout dont need tie actually
 }();
 ```
