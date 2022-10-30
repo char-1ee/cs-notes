@@ -11,18 +11,19 @@ Monotonic stack is mainly to solve **NGE** probelms (Next Greater Element), whic
 using namespace std;
 int main() {
     ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     int n;
     cin >> n;
     vector<int> V(n + 1), ans(n + 1);
     for (int i = 1; i <= n; ++i)
         cin >> V[i];
-    stack<int> S;
+    stack<int> st;
     for (int i = 1; i <= n; ++i) {
-        while (!S.empty() && V[s.top()] < V[i]) {
-            ans[s.top()] = i;
-            S.pop();
+        while (!st.empty() && V[st.top()] < V[i]) {
+            ans[st.top()] = i;
+            st.pop();
         }
-        S.push(i);
+        st.push(i);
     }
     for (int i = 1; i <= n; ++i)
         cout << ans[i] << " ";
