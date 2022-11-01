@@ -87,6 +87,7 @@
 
 ## Other
 
+* [HPC](other/hpc.md)
 * [fix: out-of-bound index for std::vector](other/fix-out-of-bound-index-for-std-vector.md)
 * [fix: delete a linked list](other/fix-delete-a-linked-list.md)
 * [fix: overloaded 'operator\*' must be a unary or binary operator (has 3 parameters)](other/fix-overloaded-operator-must-be-a-unary-or-binary-operator-has-3-parameters.md)
