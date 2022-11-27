@@ -25,6 +25,7 @@
 * [Clockwise Rule](c++/clockwise-rule.md)
 * [Initialize vector with value](c++/initialize-vector-with-value.md)
 * [Reference vs. Pointer](c++/reference-vs.-pointer.md)
+* [typedef vs. #define](c++/typedef-vs.-define.md)
 * [std::vector vs. std::list](c++/std-vector-vs.-std-list.md)
 * [Priority Queue](c++/priority-queue.md)
 * [The Rule of Three](c++/the-rule-of-three.md)
