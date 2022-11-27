@@ -46,6 +46,7 @@
 
 ## Algorithm
 
+* [Sliding window](algorithm/sliding-window.md)
 * [Sieve of Eratosthenes](algorithm/sieve-of-eratosthenes.md)
 * [Sorting](algorithm/sorting.md)
 * [LRU-K and 2Q Algorithm](algorithm/lru-k-and-2q-algorithm.md)
