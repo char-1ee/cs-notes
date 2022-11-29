@@ -46,6 +46,7 @@
 
 ## Algorithm
 
+* [Reservoir sampling](algorithm/reservoir-sampling.md)
 * [Sliding window](algorithm/sliding-window.md)
 * [Sieve of Eratosthenes](algorithm/sieve-of-eratosthenes.md)
 * [Sorting](algorithm/sorting.md)
