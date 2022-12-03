@@ -66,8 +66,8 @@
 
 ## HPC
 
-* [Get started](hpc/get-started.md)
-* [Forward Proxy and Reverse Proxy](hpc/forward-proxy-and-reverse-proxy.md)
+* [Get started](other/hpc.md)
+* [Proxy vs. Reverse Proxy](hpc/proxy-vs.-reverse-proxy.md)
 
 ## OS
 

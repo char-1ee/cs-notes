@@ -2,7 +2,7 @@
 description: About High Performance Computing
 ---
 
-# HPC
+# Get started
 
 ## Performance measurements
 
@@ -19,7 +19,7 @@ Number of cores * Average frequency * Operations per cycle
 
 ### Shared memory vs Distributed memory
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Parallelizing strategies
 
