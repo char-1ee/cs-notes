@@ -6,15 +6,15 @@ description: (SSH port forwarding)
 
 SSH tunneling creates a tunnel between 2 hosts and data from some other protocol is encapsulated in the SSH header and transferred as SSH data between these 2 hosts. Enabling secure data transfer over network
 
-### SSH Tunnel (local port forwarding)
+### SSH Tunnel (Local Port Forwarding)
 
 SSH tunnel with local port forwarding forwards the data from the port on the client to the port on the server machine.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 ssh -L 1234:localhost:5678 remoteuser@remotehost
 ```
-
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 In this command, “-L” refers to the local side listening. With the above command, all the data coming on “port 1234” of your machine will be encapsulated as SSH data and forwarded to “port 5678” of the remotehost. In the above example, “localhost” refers to the localhost IP of a remote machine.
 
@@ -22,15 +22,11 @@ In this command, “-L” refers to the local side listening. With the above com
 ssh -L 1234:farawayhost_IP:5678 remoteuser@remotehost
 ```
 
-
-
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
 In this kind of implementation, all the data coming on “port 1234” of your machine will be forwarded to the “port 5678” on the farawayhost machine by remotehost machine (given that farawayhost allows the remote host to send data for port 5678).
 
 #### Use case
 
-Local port forwarding is very useful while accessing the services hosted on a private network. Let’s take a scenario where your office network only allows SSH connections to the inside resources/machines, blocks all other traffic from outside networks, and you want to access the website restricted to your office network securely. In such a case, you can create an SSH tunnel to the machine inside your office network and access the restricted website:
+Local port forwarding is very useful **while accessing the services hosted on a private network.** Let’s take a scenario where your office network only allows SSH connections to the inside resources/machines, blocks all other traffic from outside networks, and you want to access the website restricted to your office network securely. In such a case, you can create an SSH tunnel to the machine inside your office network and access the restricted website:
 
 ```shell
 ssh -L 8080:restricted.domain.com:80 remoteuser@remotehost
@@ -42,19 +38,17 @@ You can access the restricted website with the URL “**http://localhost:8080**�
 
 Reverse SSH tunnel listens to the port on the remote machine and forwards all the data coming on that port to the specified port on your local machine via SSH.
 
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
 ```bash
 ssh -R 1234:localhost:5678 remoteuser@remotehost
 ```
-
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 In this command, “-R” refers to the remote side listening and listens to the “port 1234” on the remote machine and forwards all the data from “port 1234” of the remote machine to the “port 5678” on your local machine.
 
 ```bash
 ssh -R 1234:nearhost_IP:5678 remoteuser@remotehost
 ```
-
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 In this example, all the data from “port 1234” of the remote machine will be forwarded by your local machine to “port 5678” of the nearhost machine.
 
@@ -67,3 +61,5 @@ Before you consider implementing a reverse SSH tunnel, the parameter “GatewayP
 ### Dynamic SSH Tunnel (Dynamic Port Forwarding)
 
 {% embed url="https://blogs.perficient.com/2021/08/10/how-to-understand-ssh-tunneling-and-its-use-cases/" %}
+
+{% embed url="https://unix.stackexchange.com/questions/46235/how-does-reverse-ssh-tunneling-work" %}
