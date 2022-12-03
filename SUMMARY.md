@@ -91,7 +91,8 @@
 
 ## NETWORK
 
-* [TCP and UDP](network/tcp-and-udp.md)
+* [Public IP vs. Private IP](network/public-ip-vs.-private-ip.md)
+* [TCP vs. UDP](network/tcp-vs.-udp.md)
 * [REST](network/rest.md)
 * [Socket](network/socket.md)
 * [Network Centric](network/network-centric.md)
