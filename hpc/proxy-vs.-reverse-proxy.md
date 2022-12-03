@@ -4,7 +4,7 @@
 
 It’s often referred to as just a proxy server. **This type of server resides in front of the clients and acts as a mediator between the clients and the servers.**&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 The forward proxy ensures that the client request always goes through the proxy server first and then reaches the destination.&#x20;
 

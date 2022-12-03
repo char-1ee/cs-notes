@@ -30,7 +30,7 @@ LRU-K具有LRU的优点，同时能够避免LRU的缺点，实际应用中LRU-2�
 
 当数据第一次访问时，2Q算法将数据缓存在FIFO队列里面，当数据第二次被访问时，则将数据从FIFO队列移到LRU队列里面，两个队列各自按照自己的方法淘汰数据。详细实现如下：
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 1. &#x20;新访问的数据插入到FIFO队列；
 2. 如果数据在FIFO队列中一直没有被再次访问，则最终按照FIFO规则淘汰；

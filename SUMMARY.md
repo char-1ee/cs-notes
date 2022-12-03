@@ -67,6 +67,7 @@
 ## HPC
 
 * [Get started](other/hpc.md)
+* [SSH Tunneling](hpc/ssh-tunneling.md)
 * [Proxy vs. Reverse Proxy](hpc/proxy-vs.-reverse-proxy.md)
 
 ## OS
