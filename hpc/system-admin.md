@@ -1,6 +1,6 @@
-# System monitor
+# System admin
 
-Print info of current node (not the whole cluster)
+### Print info of current node (not the whole cluster)
 
 ```bash
 # Print number of processing unit available
@@ -23,4 +23,13 @@ $ cat /proc/meminfo
 
 # System monitor
 $ htop
+```
+
+### Run jobs
+
+```bash
+# Note that this is running on login node 
+$ nano test.sh
+$ chmod 744 test.sh
+$ ./test.sh
 ```
