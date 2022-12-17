@@ -52,4 +52,7 @@ To fold a protein in 1 hour:
 * Strong scaling (run problem faster with same problem size): fold same protein in 1 minute
 * Weak scaling (run a larger problem or more problem): fold a bigger protein in 1 hour OR fold many small protein in 1 hour
 
-###
+## HPC filesystem
+
+* Home - a network filesystem, available throughout the whole HPC system and backed up periodically. Slow to access. Data is transmitted over the network.&#x20;
+* **Scratch** - faster than the Home directory, not usually backed up. Used for short term storage for a single job or set of computational jobs

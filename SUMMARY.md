@@ -70,6 +70,7 @@
 * [SSH Tunneling](hpc/ssh-tunneling.md)
 * [Proxy vs. Reverse Proxy](hpc/proxy-vs.-reverse-proxy.md)
 * [Singularity](hpc/singularity.md)
+* [System monitor](hpc/system-monitor.md)
 
 ## OS
 
