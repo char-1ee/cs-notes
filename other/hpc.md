@@ -51,3 +51,5 @@ To fold a protein in 1 hour:
 
 * Strong scaling (run problem faster with same problem size): fold same protein in 1 minute
 * Weak scaling (run a larger problem or more problem): fold a bigger protein in 1 hour OR fold many small protein in 1 hour
+
+###
