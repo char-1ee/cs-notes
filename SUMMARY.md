@@ -74,6 +74,7 @@
 * [Scheduler](hpc/scheduler.md)
 * [System admin](hpc/system-admin.md)
 * [Transfer files](hpc/transfer-files.md)
+* [Modules](hpc/modules.md)
 
 ## OS
 
