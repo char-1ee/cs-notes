@@ -46,6 +46,7 @@
 
 ## Algorithm
 
+* [Least Common Multiply](algorithm/least-common-multiply.md)
 * [Reservoir sampling](algorithm/reservoir-sampling.md)
 * [Sliding window](algorithm/sliding-window.md)
 * [Sieve of Eratosthenes](algorithm/sieve-of-eratosthenes.md)
@@ -66,12 +67,13 @@
 
 ## HPC
 
-* [Get started](other/hpc.md)
+* [Basic concepts](hpc/basic-concepts.md)
 * [SSH Tunneling](hpc/ssh-tunneling.md)
 * [Proxy vs. Reverse Proxy](hpc/proxy-vs.-reverse-proxy.md)
 * [Singularity](hpc/singularity.md)
 * [Scheduler](hpc/scheduler.md)
 * [System admin](hpc/system-admin.md)
+* [Transfer files](hpc/transfer-files.md)
 
 ## OS
 
