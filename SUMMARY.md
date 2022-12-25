@@ -67,7 +67,7 @@
 
 ## HPC
 
-* [Basic concepts](hpc/basic-concepts.md)
+* [Basic concepts](other/hpc.md)
 * [SSH Tunneling](hpc/ssh-tunneling.md)
 * [Proxy vs. Reverse Proxy](hpc/proxy-vs.-reverse-proxy.md)
 * [Singularity](hpc/singularity.md)

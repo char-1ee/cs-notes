@@ -2,7 +2,7 @@
 description: About High Performance Computing
 ---
 
-# Get started
+# Basic concepts
 
 ## Performance measurements
 
