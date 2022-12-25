@@ -23,6 +23,9 @@ $ cat /proc/meminfo
 
 # System monitor
 $ htop
+
+# Show disk usage 
+$ du -sh <filename>
 ```
 
 ### Run jobs
