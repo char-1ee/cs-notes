@@ -75,6 +75,7 @@
 * [System admin](hpc/system-admin.md)
 * [Transfer files](hpc/transfer-files.md)
 * [Modules](hpc/modules.md)
+* [Compilation](hpc/compilation.md)
 
 ## OS
 

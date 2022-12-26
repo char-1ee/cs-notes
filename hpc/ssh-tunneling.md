@@ -10,7 +10,7 @@ SSH tunneling creates a tunnel between 2 hosts and data from some other protocol
 
 SSH tunnel with local port forwarding forwards the data from the port on the client to the port on the server machine.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 ssh -L 1234:localhost:5678 remoteuser@remotehost
@@ -38,7 +38,7 @@ You can access the restricted website with the URL â€œ**http://localhost:8080**â
 
 Reverse SSH tunnel listens to the port on the remote machine and forwards all the data coming on that port to the specified port on your local machine via SSH.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 ssh -R 1234:localhost:5678 remoteuser@remotehost
