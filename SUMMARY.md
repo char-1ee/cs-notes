@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Preface](README.md)
+
 ## Java
 
-* [Optimize your Java code](README.md)
+* [Optimize your Java code](<README (1).md>)
 * [If-else optimization](java/if-else-optimization.md)
 * [hashCode() and equals()](java/hashcode-and-equals.md)
 * [wait() and notify()](java/wait-and-notify.md)
