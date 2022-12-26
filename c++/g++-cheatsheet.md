@@ -24,6 +24,7 @@ description: https://bytes.usc.edu/cs104/wiki/gcc/
 * `-Wshadow` warns whenever a local variable or type declaration shadows another variable, parameter, class member, etc.
 * `-Wsign-conversion` or `-Wconversion` warn if making unsafe, implicit conversions between signed and unsigned types (i.e. unsigned int + (constant expression) )
 * `-O2` optimize code and check for errors in parallel to find potential bugs. ([read more about this here](https://bytes.usc.edu/cs104/wiki/gcc/#more-error-checks))
+* `-funroll-loops` is to unroll the loops in code
 * `--help` gets help on specific options for the compiler.
 
 #### Cheatsheet
