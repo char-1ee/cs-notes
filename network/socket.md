@@ -11,7 +11,7 @@ _(cliaddr : cliport, servaddr : serport)_
 
 ### Socket Interface Application
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Socket address structures
 

@@ -36,3 +36,17 @@ $ nano test.sh
 $ chmod 744 test.sh
 $ ./test.sh
 ```
+
+### Power managements
+
+```bash
+$ systemctl halt
+$ systemctl power-off
+$ shutdown
+$ systemctl reboot
+
+$ systemctl suspend     # save current system state to RAM
+$ systemctl hibernate   # save current system state to disk
+```
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
