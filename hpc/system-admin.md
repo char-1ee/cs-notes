@@ -24,6 +24,9 @@ $ cat /proc/meminfo
 # System monitor
 $ htop
 
+# View process
+$ ps ux
+
 # Show disk usage 
 $ du -sh <filename>
 ```

@@ -34,7 +34,7 @@ $ rsync -azvP path/to/local/file.txt xli072@nscc.ntu.sg:/path/on/Graham
 $ rsync -avzP xli072@nscc.ntu.sg:path/on/Graham/file.txt path/to/local/
 
 # Set port 
-4 rsync --port=768 test.txt xli072@nscc.ntu.sg:
+$ rsync --port=768 test.txt xli072@nscc.ntu.sg:
 ```
 
 The options are:
@@ -43,6 +43,15 @@ The options are:
 * `v` (verbose) to get verbose output to help monitor the transfer
 * `z` (compression) to compress the file during transit to reduce size and transfer time
 * `P` (partial/progress) to preserve partially transferred files in case of an interruption and also displays the progress of the transfer.
+
+The good practice to transfer folder with large amount of files:
+
+```bash
+$ tar -cvzf data.tar.gz data
+$ rsync -raz data.tar.gz yourUsername@graham.computecanada.ca:~/
+```
+
+The `tar` combine all files into a single file, and use `-z` to compress them. The `rsync` recursively transfer files with compression `-z` and preservation `-a`.
 
 ### Archiving files
 
