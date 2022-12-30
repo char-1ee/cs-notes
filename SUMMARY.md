@@ -78,6 +78,7 @@
 * [Transfer files](hpc/transfer-files.md)
 * [Modules](hpc/modules.md)
 * [Compilation](hpc/compilation.md)
+* [MPI](hpc/mpi.md)
 
 ## OS
 
