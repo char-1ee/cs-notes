@@ -13,10 +13,11 @@ int main() {
     cin >> n;
     bool prime[n + 1];
     memset(prime, true, sizeof(prime));
+    prime[1] = 1;
     
     for (int i = 2; i * i <= n; i++) {
         if (prime[i] == true) {
-            for (int j = i * i; j <= n; j++) {
+            for (int j = i * i; j <= n; j += i) {
                 prime[j] = false;
             }
         }
