@@ -6,6 +6,8 @@ description: (SSH port forwarding)
 
 SSH tunneling creates a tunnel between 2 hosts and data from some other protocol is encapsulated in the SSH header and transferred as SSH data between these 2 hosts. Enabling secure data transfer over network
 
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 ### SSH Tunnel (Local Port Forwarding)
 
 SSH tunnel with local port forwarding forwards the data from the port on the client to the port on the server machine.
