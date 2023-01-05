@@ -8,6 +8,10 @@ Given any integer x,  f(x) = x & (x - 1).  f(x) is the result for x to unset its
 
 Similarly, x & (\~x + 1) fetchs out the rightmost set bit.
 
+```cpp
+void lowbit(int x) { x &= -x; }
+```
+
 ### Examples
 
 * [Leetcode 461. Hamming Distance](https://leetcode.com/problems/hamming-distance/)
