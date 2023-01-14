@@ -56,3 +56,11 @@ To fold a protein in 1 hour:
 
 * Home - a network filesystem, available throughout the whole HPC system and backed up periodically. Slow to access. Data is transmitted over the network.&#x20;
 * **Scratch** - faster than the Home directory, not usually backed up. Used for short term storage for a single job or set of computational jobs
+
+### RDMA
+
+{% embed url="https://www.techtarget.com/searchstorage/definition/Remote-Direct-Memory-Access" %}
+Definition
+{% endembed %}
+
+{% embed url="https://zhuanlan.zhihu.com/p/55142557" %}
