@@ -67,6 +67,10 @@
 * [起手式](algorithm/qi-shou-shi.md)
 * [Constraints](algorithm/constraints.md)
 
+## GO
+
+* [How to write go code](go/how-to-write-go-code.md)
+
 ## HPC
 
 * [Basic concepts](other/hpc.md)
