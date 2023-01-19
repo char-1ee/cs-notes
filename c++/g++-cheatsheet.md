@@ -27,6 +27,14 @@ description: https://bytes.usc.edu/cs104/wiki/gcc/
 * `-funroll-loops` is to unroll the loops in code
 * `--help` gets help on specific options for the compiler.
 
+**Updates:**
+
+* `-fsanitize=address` check memeory leak. But space and time consuming. For details, click [here](https://www.bynav.com/en/resource/bywork/healthy-work/393.html).
+
+```bash
+gcc -fsanitize=address -fno-omit-frame-pointer -O1 -g main.c -o main
+```
+
 #### Cheatsheet
 
 ```shell
