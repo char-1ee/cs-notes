@@ -35,6 +35,7 @@
 * [Iterator increment](c++/iterator-increment.md)
 * [emplace\_back() vs. push\_back()](c++/emplace\_back-vs.-push\_back.md)
 * [Where is const stored?](c++/where-is-const-stored.md)
+* [extern](c++/extern.md)
 * [g++ cheatsheet](c++/g++-cheatsheet.md)
 * [C++11 and C++14](c++/c++11-and-c++14.md)
 * [C](c++/c.md)
