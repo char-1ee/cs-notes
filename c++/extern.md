@@ -19,3 +19,8 @@ int f(); // extern by default
 static int sf(); // explicitly static
 ```
 
+### One Definition Rule
+
+ORD, variable can only be defined once.&#x20;
+
+Defining declaration, allocating memory space for variables. Referencing declaration, not allocation memeory space for variables because it reference existing variables.
