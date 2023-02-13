@@ -23,91 +23,20 @@ Modern C++ provides:
 ### `void*` pointer
 
 * A pointer to **`void`** simply points to a raw memory location. Modern C++ discourages the use of `void` pointers in almost all circumstances.
-* When a typed pointer is cast to a `void` pointer, the contents of the memory location are unchanged. However, the type information is lost, so that you can't do increment or decrement operations. (casting error-prone)
+* When a typed pointer is cast to a `void` pointer, the contents of the memory location are unchanged. However, the type information is lost, so that you can't do increment or decrement operations.&#x20;
 * Sometimes it's necessary to use `void*` pointers, for example when passing between C++ code and C functions.
 
 ```cpp
 void func(void* data, int length) {
     char* c = (char*)(data);
-    for (int i = 0; i < length; i++) { // fill buffer with data
+    for (int i = 0; i < length; i++) {
         *c = 0x41;
         ++c;
     }
 }
-
-// main.cpp
-#include <iostream>
-
-extern "C" {
-    void func(void* data, int length);
-}
-
-class MyClass {
-public:
-    int num;
-    std::string name;
-    void print() {
-        std::cout << name << ":" << std::endl;
-    }
-};
-
-int main {
-    MyClass* mc = new MyClass{10, "jack"};
-    void* p = static_cast<void*>(mc);
-    MyClass* mc2 = static_cast<MyClass*>(p);
-    std::cout << mc2->print() << std::endl; // "jack"
-    delete(mc);
-    delete(mc2);
-    
-    // using operator new to allocate untyped memory block
-    void* pvoid = operator new(1000);
-    char* pchar = static_cast<char*>(pvoid); 
-    for (char* p = pchar; p < pchar + 1000; p++) { // initialize
-        *p = 0x00;
-    }
-    func(pvoid, 1000); // assign value but lost type char
-    char ch = static_cast<char*>(pvoid)[0];
-    std::cout << ch << std::endl; // 'A'
-    operator delete(pvoid);
-}
 ```
 
-### &#x20;Pointers to functions
 
-```cpp
-// Declare pointer to any function that...
-
-// ...accepts a string and returns a string
-string (*g)(string a);
-
-// has no return value and no parameters
-void (*x)();
-
-// ...returns an int and takes three parameters
-// of the specified types
-int (*i)(int i, string s, double d);
-```
-
-```cpp
-string base {"Hello world"};
-
-string append(string a) {
-    return base.append(" ").append(a);
-}
-
-string prepend(string a) {
-    return a.append(" ").append(base);
-}
-
-string combine(string s, string(*g)(string a)) {
-    return (*g)(s);
-}
-
-int main() {
-    cout << combine("from MSVC", append) << "\n";
-    cout << combine("Good morning and", prepend) << "\n";
-}
-```
 
 ### Reference
 
