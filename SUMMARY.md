@@ -102,6 +102,7 @@
 
 * [Microservice](system-design/microservice.md)
 * [How to maintain login status](system-design/how-to-maintain-login-status.md)
+* [How to store historical data](system-design/how-to-store-historical-data.md)
 * [Database Indexes](system-design/database-indexes.md)
 * [Tiny Web Server](system-design/tiny-web-server.md)
 * [Print odd and even using 2 threads](system-design/print-odd-and-even-using-2-threads.md)
