@@ -70,6 +70,7 @@
 * [Check given x is an Integer](algorithm/check-given-x-is-an-integer.md)
 * [起手式](algorithm/qi-shou-shi.md)
 * [Constraints](algorithm/constraints.md)
+* [Matching Machine](algorithm/matching-machine.md)
 
 ## GO
 
