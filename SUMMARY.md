@@ -37,6 +37,7 @@
 * [Where is const stored?](c++/where-is-const-stored.md)
 * [extern](c++/extern.md)
 * [Inline function](c++/inline-function.md)
+* [Lambda expression](c++/lambda-expression.md)
 * [Pointers](c++/pointers.md)
 * [g++ cheatsheet](c++/g++-cheatsheet.md)
 * [C++11 and C++14](c++/c++11-and-c++14.md)
