@@ -39,6 +39,7 @@
 * [Inline function](c++/inline-function.md)
 * [Lambda expression](c++/lambda-expression.md)
 * [Pointers](c++/pointers.md)
+* [const string&](c++/const-string-and.md)
 * [g++ cheatsheet](c++/g++-cheatsheet.md)
 * [C++11 and C++14](c++/c++11-and-c++14.md)
 * [C](c++/c.md)
@@ -110,6 +111,7 @@
 * [Print odd and even using 2 threads](system-design/print-odd-and-even-using-2-threads.md)
 * [Better GitHub Workflow](system-design/better-github-workflow.md)
 * [Singleton class with DCL](system-design/singleton-class-with-dcl.md)
+* [Dependency Injection](system-design/dependency-injection.md)
 
 ## NETWORK
 
