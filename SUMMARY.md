@@ -112,6 +112,7 @@
 * [Better GitHub Workflow](system-design/better-github-workflow.md)
 * [Singleton class with DCL](system-design/singleton-class-with-dcl.md)
 * [Dependency Injection](system-design/dependency-injection.md)
+* [Pagination](system-design/pagination.md)
 
 ## NETWORK
 
