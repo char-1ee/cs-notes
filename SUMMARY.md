@@ -118,7 +118,7 @@
 
 * [Public IP vs. Private IP](network/public-ip-vs.-private-ip.md)
 * [TCP vs. UDP](network/tcp-vs.-udp.md)
-* [REST](network/rest.md)
+* [REST API](network/rest-api.md)
 * [Socket](network/socket.md)
 * [Network Centric](network/network-centric.md)
 

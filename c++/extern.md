@@ -24,3 +24,7 @@ static int sf(); // explicitly static
 ORD, variable can only be defined once.&#x20;
 
 Defining declaration, allocating memory space for variables. Referencing declaration, not allocation memeory space for variables because it reference existing variables.
+
+### extern "C"
+
+[https://stackoverflow.com/questions/1041866/what-is-the-effect-of-extern-c-in-c](https://stackoverflow.com/questions/1041866/what-is-the-effect-of-extern-c-in-c)
