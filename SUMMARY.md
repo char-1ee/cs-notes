@@ -44,6 +44,11 @@
 * [C++11 and C++14](c++/c++11-and-c++14.md)
 * [C](c++/c.md)
 
+## GO
+
+* [How to write go code](go/how-to-write-go-code.md)
+* [Error Handling](go/error-handling.md)
+
 ## Design pattern
 
 * [Chain-of-responsibility](design-pattern/chain-of-responsibility.md)
@@ -73,10 +78,6 @@
 * [起手式](algorithm/qi-shou-shi.md)
 * [Constraints](algorithm/constraints.md)
 * [Matching Machine](algorithm/matching-machine.md)
-
-## GO
-
-* [How to write go code](go/how-to-write-go-code.md)
 
 ## HPC
 
