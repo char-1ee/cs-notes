@@ -14,3 +14,7 @@ How offset and limit match pgno and pgsz:
 * Page size: The page size represents the number of rows you want to display on each page. For example, if you're displaying 20 rows per page, the page size would be 20.
 * OFFSET: The `OFFSET` value is calculated by multiplying the page number minus 1 by the page size. For example, if the page size is 20 and you want to display page 3, the `OFFSET` value would be 40 (i.e., `OFFSET` = (3 - 1) \* 20).
 * LIMIT: The `LIMIT` value is simply set to the page size. For example, if the page size is 20, the `LIMIT` value would be 20.
+
+### Update
+
+Noticed that response should include field `count`, which indicate how many records existing in DB so that FE can use that \`count\` with pgsz and pgno for rendering.
