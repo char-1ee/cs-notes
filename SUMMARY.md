@@ -116,6 +116,7 @@
 * [Singleton class with DCL](system-design/singleton-class-with-dcl.md)
 * [Dependency Injection](system-design/dependency-injection.md)
 * [Pagination](system-design/pagination.md)
+* [Lock Free Queue](system-design/lock-free-queue.md)
 
 ## NETWORK
 
