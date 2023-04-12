@@ -50,6 +50,8 @@
 * [Error Handling](go/error-handling.md)
 * [Map Reduce Filter](go/map-reduce-filter.md)
 * [Functional Options](go/functional-options.md)
+* [Pipeline](go/pipeline.md)
+* [Locked Cache](go/locked-cache.md)
 
 ## Design pattern
 
