@@ -15,7 +15,7 @@ alter table mt add index `un_org_cat_biz` (`org`,`category`,`bid`) USING BTREE;
 
 #### Code level
 
-1. 查询DB由单线程改为多线程，使用 Future 对象 async query
+1. 查询DB由单线程改为多线程，使用 Future 对象 async query, 可参考另一篇[笔记](<../README (1).md>)
 
 ```java
 CompletableFuture[] futureArray = dataList.stream()
