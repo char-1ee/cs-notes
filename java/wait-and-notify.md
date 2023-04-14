@@ -5,7 +5,7 @@
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-### __[_wait()_ ](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#wait\(\))
+### [_wait()_ ](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#wait\(\))
 
 Simply put, calling _wait()_ forces the current thread to wait until some other thread invokes _notify()_ or _notifyAll()_ on the same object. For this, the current thread must own the object's [monitor](https://www.baeldung.com/cs/monitor). According to [Javadocs](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#notify\(\)), this can happen in the following ways:
 
@@ -21,7 +21,7 @@ wait(long timeout); // A timeout until thread woken up automatically
 wait(long timeout, int nanos); // timeout in nanoseconds: 1_000_000*timeout + nanos.
 ```
 
-### __[_notify()_](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#notify\(\))__
+### [_notify()_](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#notify\(\))
 
 We use the _notify()_ method for waking up threads that are waiting for an access to this object's monitor.
 
@@ -29,7 +29,7 @@ For all threads waiting on this object's monitor (by using any one of the _wait(
 
 Since _notify()_ wakes up a single random thread, we can use it to implement mutually exclusive locking where threads are doing similar tasks. But in most cases, it would be more viable to implement _notifyAll()_.
 
-### __[_notifyAll()_](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#notifyAll\(\))__
+### [_notifyAll()_](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#notifyAll\(\))
 
 This method simply wakes all threads that are waiting on this object's monitor. The awakened threads will complete in the usual manner, like any other thread.
 

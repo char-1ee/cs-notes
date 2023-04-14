@@ -91,7 +91,7 @@ $ singularity build /home/test_image.sif /home/test_image.def
 For more definition file writings:\
 [https://docs.sylabs.io/guides/3.5/user-guide/definition\_files.html#sections](https://docs.sylabs.io/guides/3.5/user-guide/definition\_files.html#sections)
 
-### Use `scp` __ (secure copy) to copy files between systems
+### Use `scp` (secure copy) to copy files between systems
 
 You may find that the created Singularity image file on your host filesystem is owned by the `root` user and not your user. In this case, you won’t be able to change the ownership/permissions of the file directly if you don’t have root access.
 

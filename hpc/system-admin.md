@@ -52,4 +52,4 @@ $ systemctl suspend     # save current system state to RAM
 $ systemctl hibernate   # save current system state to disk
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

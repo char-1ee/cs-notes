@@ -12,7 +12,7 @@ description: A collection of optimization methods in Java development.
 4. [Close resources in-time](<README (1).md#close-resources-in-time>)
 5. [Multithreading API calls](<README (1).md#multithreading-api-calls>)
 6. [Lazy loading](<README (1).md#lazy-loading>)
-7. [Initialize capacity for `Collections`](<README (1).md#initialize-capacity-for-collections>)``
+7. [Initialize capacity for `Collections`](<README (1).md#initialize-capacity-for-collections>)
 8. [Replace synchronized methods with synchronized blocks](<README (1).md#replace-synchronized-methods-with-synchronized-blocks>)
 9. [Pagination for big data](<README (1).md#pagination-for-big-data>)
 10. [Avoid infinite loops](<README (1).md#avoid-infinite-loops>)

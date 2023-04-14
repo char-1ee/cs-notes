@@ -200,7 +200,7 @@ public class User {
 
 First version of `UserDAO` and `queries.xml` will contain `create` and `delete` table queries.
 
-****
+
 
 **UserDAO** (incomplete) - data access object for User object.
 

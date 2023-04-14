@@ -1,6 +1,6 @@
 # std::vector vs. std::list
 
-__[_std::list_](https://en.cppreference.com/w/cpp/container/list) _vs._ [_std::vector_](https://en.cppreference.com/w/cpp/container/vector)__
+[_std::list_](https://en.cppreference.com/w/cpp/container/list) _vs._ [_std::vector_](https://en.cppreference.com/w/cpp/container/vector)
 
 | Vector                                                                             | List                                                                                                                                               |
 | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |

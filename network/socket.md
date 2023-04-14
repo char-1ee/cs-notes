@@ -1,6 +1,6 @@
 # Socket
 
-A socket is an end point of a connection. Each socket has a corresponding socket address that consists of an Internet address and a 16-bit integer _port_ and is denoted by the notation `address:port`. __ For ports:
+A socket is an end point of a connection. Each socket has a corresponding socket address that consists of an Internet address and a 16-bit integer _port_ and is denoted by the notation `address:port`. For ports:
 
 * Client -> ephemeral port (auto assigned)
 * Server -> well-known port <-> well-known service name (http-80, smtp-25, `/etc/services`)

@@ -24,7 +24,7 @@ public void lockObjectField() {
 
 #### Lock on _this_
 
-_this_ refers to __ the instance itself. So all methods using synchronized(this) share a same lock.
+_this_ refers to the instance itself. So all methods using synchronized(this) share a same lock.
 
 ```java
 public void lockThis() {
