@@ -122,6 +122,11 @@
 * [How to trace high CPU usage thread](system-design/how-to-trace-high-cpu-usage-thread.md)
 * [API optimization](system-design/api-optimization.md)
 
+## DB
+
+* [数据库事务](db/shu-ju-ku-shi-wu.md)
+* [数据库索引](db/shu-ju-ku-suo-yin.md)
+
 ## NETWORK
 
 * [Public IP vs. Private IP](network/public-ip-vs.-private-ip.md)
