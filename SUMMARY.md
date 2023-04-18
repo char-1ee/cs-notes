@@ -105,6 +105,7 @@
 * [Error Handling](os/error-handling.md)
 * [Common Gateway Interface](os/common-gateway-interface.md)
 * [IO paradigms](os/io-paradigms.md)
+* [Semaphores and Mutexes](os/semaphores-and-mutexes.md)
 
 ## System design
 
