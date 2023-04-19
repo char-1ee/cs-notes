@@ -40,6 +40,7 @@
 * [Lambda expression](c++/lambda-expression.md)
 * [Pointers](c++/pointers.md)
 * [const string&](c++/const-string-and.md)
+* [Read Write Lock](c++/read-write-lock.md)
 * [g++ cheatsheet](c++/g++-cheatsheet.md)
 * [C++11 and C++14](c++/c++11-and-c++14.md)
 * [C](c++/c.md)
