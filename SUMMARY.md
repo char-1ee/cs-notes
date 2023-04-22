@@ -30,7 +30,7 @@
 * [Reference vs. Pointer](c++/reference-vs.-pointer.md)
 * [typedef vs. #define](c++/typedef-vs.-define.md)
 * [std::vector vs. std::list](c++/std-vector-vs.-std-list.md)
-* [Priority Queue](c++/priority-queue.md)
+* [Heaps and Priority Queues](c++/heaps-and-priority-queues.md)
 * [The Rule of Three](c++/the-rule-of-three.md)
 * [Iterator increment](c++/iterator-increment.md)
 * [emplace\_back() vs. push\_back()](c++/emplace\_back-vs.-push\_back.md)
