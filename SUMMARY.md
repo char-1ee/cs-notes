@@ -24,6 +24,7 @@
 
 ## C++
 
+* [Functional functions](c++/functional-functions.md)
 * [Declare variable length array](c++/declare-variable-length-array.md)
 * [Clockwise Rule](c++/clockwise-rule.md)
 * [Initialize vector with value](c++/initialize-vector-with-value.md)
