@@ -62,6 +62,7 @@
 * [MVC-MVVM](design-pattern/mvc-mvvm.md)
 * [Factory Pattern](design-pattern/factory-pattern.md)
 * [Singleton Pattern](design-pattern/singleton-pattern.md)
+* [Expressiveness by Abstraction](design-pattern/expressiveness-by-abstraction.md)
 
 ## Algorithm
 
