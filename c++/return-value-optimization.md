@@ -1,8 +1,25 @@
 # Return Value Optimization
 
-Return value optimization construct returned object in the targeted memory space outside of function, so that avoid extra performance costs due to copy returned object.
+Return value optimization is a compiler technique. It constructs returned object in the targeted memory space outside of function, so that avoid extra performance costs due to copy returned object.
 
 > The common idea of these two optimizations is to allow the compiler to **use the memory space** of this object t, which is **outside the function**, to directly **construct the object** being initialized **inside** the function and that is returned from it. This effectively removes the need for copying intermediary objects.
+
+```cpp
+class BigObject
+{
+};
+
+BigObject foo() 
+{
+    return BigObject(); // RVO
+}
+
+BigObject bar()
+{
+   BigObject localObj;
+   return localObj; // NRVO
+}
+```
 
 ### RVO (Return Value Optimization)
 
@@ -37,3 +54,7 @@ Therefore, to enable compiler optimizations, developers should&#x20;
 
 1. return only one object from all function return paths.
 2. have small/coherent functions so that compiler can perform more optimizations.&#x20;
+
+### Reference
+
+{% embed url="https://www.zhihu.com/question/32237405" %}
