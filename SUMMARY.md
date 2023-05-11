@@ -126,6 +126,7 @@
 * [Lock Free Queue](system-design/lock-free-queue.md)
 * [How to trace high CPU usage thread](system-design/how-to-trace-high-cpu-usage-thread.md)
 * [API optimization](system-design/api-optimization.md)
+* [Order](system-design/order.md)
 
 ## DB
 
