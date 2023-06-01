@@ -133,6 +133,7 @@
 
 * [数据库事务](db/shu-ju-ku-shi-wu.md)
 * [数据库索引](db/shu-ju-ku-suo-yin.md)
+* [Intern related](db/intern-related.md)
 
 ## NETWORK
 
