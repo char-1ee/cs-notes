@@ -55,6 +55,7 @@
 * [Functional Options](go/functional-options.md)
 * [Pipeline](go/pipeline.md)
 * [Locked Cache](go/locked-cache.md)
+* [Cronjob](go/cronjob.md)
 
 ## Design pattern
 
