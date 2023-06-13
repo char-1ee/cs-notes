@@ -56,8 +56,9 @@
 * [Pipeline](go/pipeline.md)
 * [Locked Cache](go/locked-cache.md)
 * [Cronjob](go/cronjob.md)
-* [API](go/api.md)
-* [Logger](go/logger.md)
+* [API designs](go/api-designs.md)
+* [Implement a customized logger](go/implement-a-customized-logger.md)
+* [Implement a buffered IO](go/implement-a-buffered-io.md)
 
 ## Design pattern
 
