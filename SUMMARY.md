@@ -50,6 +50,7 @@
 ## GO
 
 * [How to write go code](go/how-to-write-go-code.md)
+* [struct{}{}](go/struct.md)
 * [Error Handling](go/error-handling.md)
 * [Map Reduce Filter](go/map-reduce-filter.md)
 * [Functional Options](go/functional-options.md)
