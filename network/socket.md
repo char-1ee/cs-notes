@@ -169,5 +169,5 @@ int getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host, size_t h
 // Returns: 0 if OK, nonzero error code on error
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
