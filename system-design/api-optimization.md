@@ -7,7 +7,7 @@
 #### DB level
 
 1. SQL bluk query 批量查询, 比如传入 id 数组，使用 where id in (...)
-2. 优化索引，比如说复杂查询使用联合索引 (注意粒度)
+2. 优化索引，比如说复杂查询使用联合索引 (注意粒度) (composite index, granularity)
 
 ```sql
 alter table mt add index `un_org_cat_biz` (`org`,`category`,`bid`) USING BTREE;
