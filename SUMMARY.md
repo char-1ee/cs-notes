@@ -60,6 +60,7 @@
 * [API Practices in Go](go/api-practices-in-go.md)
 * [Implement a customized logger](go/implement-a-customized-logger.md)
 * [Implement a buffered IO](go/implement-a-buffered-io.md)
+* [Middleware with Gin](go/middleware-with-gin.md)
 
 ## Design pattern
 
