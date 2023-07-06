@@ -6,14 +6,14 @@
 
 * [Optimize your Java code](<README (1).md>)
 * [If-else optimization](java/if-else-optimization.md)
-* [hashCode() and equals()](java/hashcode-and-equals.md)
-* [wait() and notify()](java/wait-and-notify.md)
-* [Thread.join()](java/thread.join.md)
-* [Object-level Lock and Class-level Lock](java/object-level-lock-and-class-level-lock.md)
 * [Blocking Queue](java/blocking-queue.md)
-* [Concurrency](java/concurrency.md)
-* [HashMap](system-design/thread-safe-hashmap.md)
-* [Control Access](java/control-access.md)
+* [Java: hashCode() & equals()](java/java-hashcode-and-equals.md)
+* [Java: wait() & notify()](java/java-wait-and-notify.md)
+* [Java: Thread.join()](java/java-thread.join.md)
+* [Java: Object-level Lock and Class-level Lock](java/java-object-level-lock-and-class-level-lock.md)
+* [Java: concurrency](java/java-concurrency.md)
+* [Java: HashMap](java/java-hashmap.md)
+* [Java: control Access](java/java-control-access.md)
 * [OOM, memory leak](java/oom-memory-leak.md)
 
 ## Android
@@ -50,17 +50,18 @@
 ## GO
 
 * [How to write go code](go/how-to-write-go-code.md)
-* [struct{}{}](go/struct.md)
-* [Error Handling](go/error-handling.md)
-* [Map Reduce Filter](go/map-reduce-filter.md)
-* [Functional Options](go/functional-options.md)
-* [Pipeline](go/pipeline.md)
-* [Locked Cache](go/locked-cache.md)
-* [Cronjob](go/cronjob.md)
-* [API Practices in Go](go/api-practices-in-go.md)
-* [Implement a customized logger](go/implement-a-customized-logger.md)
+* [Go: struct{}{}](go/go-struct.md)
+* [Go: context](go/go-context.md)
+* [Go: error handling](go/go-error-handling.md)
+* [Gin: middleware](go/gin-middleware.md)
+* [(FP) Map Reduce Filter](go/fp-map-reduce-filter.md)
+* [(FP) Functional Options](go/fp-functional-options.md)
+* [(FP) Pipeline](go/fp-pipeline.md)
+* [Implement a locked cache](go/implement-a-locked-cache.md)
+* [Implement a cronjob](go/implement-a-cronjob.md)
 * [Implement a buffered IO](go/implement-a-buffered-io.md)
-* [Middleware with Gin](go/middleware-with-gin.md)
+* [Implement a customized logger](go/implement-a-customized-logger.md)
+* [API Practices in Go](go/api-practices-in-go.md)
 
 ## Design pattern
 

@@ -40,7 +40,7 @@ constexpr int n()
 double a[n()]; // n() is a compile time constant expression
 ```
 
-***
+\-----------------------------------------------------------------------------------------------------
 
 References: [Array\[n\] vs Array\[10\] - Initializing array with variable vs numeric literal](https://stackoverflow.com/questions/15013077/arrayn-vs-array10-initializing-array-with-variable-vs-numeric-literal)\
 Related reading: [Why can't I create an array with size determined by a global variable?](https://stackoverflow.com/questions/2427336/why-cant-i-create-an-array-with-size-determined-by-a-global-variable)
