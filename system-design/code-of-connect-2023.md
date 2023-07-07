@@ -1,6 +1,6 @@
-# Order
+# Code of Connect 2023
 
-data -> order injector -> Lit exchange | dark pool | smart order router (SOR)
+Project: data -> order injector -> Lit exchange | dark pool | smart order router (SOR)
 
 smart order router -> lit exchange | dark pool (both 2 contains orderbooks)&#x20;
 

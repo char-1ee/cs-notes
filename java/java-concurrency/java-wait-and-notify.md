@@ -1,9 +1,9 @@
-# wait() and notify()
+# Java: wait() & notify()
 
 * `Object.wait()` to suspend a thread
 * `Object.notify()` to wake a thread up
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### [_wait()_ ](https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#wait\(\))
 
