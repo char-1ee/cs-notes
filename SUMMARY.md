@@ -54,6 +54,7 @@
 * [Go: context](go/go-context.md)
 * [Go: error handling](go/go-error-handling.md)
 * [Gin: middleware](go/gin-middleware.md)
+* [gRPC: interceptor](go/grpc-interceptor.md)
 * [(FP) Map Reduce Filter](go/fp-map-reduce-filter.md)
 * [(FP) Functional Options](go/fp-functional-options.md)
 * [(FP) Pipeline](go/fp-pipeline.md)
