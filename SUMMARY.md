@@ -53,6 +53,7 @@
 * [Go: struct{}{}](go/go-struct.md)
 * [Go: context](go/go-context.md)
 * [Go: error handling](go/go-error-handling.md)
+* [Go: panic & recover](go/go-panic-and-recover.md)
 * [Gin: middleware](go/gin-middleware.md)
 * [gRPC: interceptor](go/grpc-interceptor.md)
 * [(FP) Map Reduce Filter](go/fp-map-reduce-filter.md)
