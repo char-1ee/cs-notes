@@ -124,6 +124,7 @@
 ## System design
 
 * [Microservice](system-design/microservice.md)
+* [Load Balance](system-design/load-balance.md)
 * [How to maintain login status](system-design/how-to-maintain-login-status.md)
 * [How to store historical data](system-design/how-to-store-historical-data.md)
 * [Database Indexes](system-design/database-indexes.md)
