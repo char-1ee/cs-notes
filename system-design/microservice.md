@@ -6,9 +6,9 @@ description: A typical microservice architecture.
 
 <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Typical architecture</p></figcaption></figure>
 
-#### What are mian components?
+#### What are the main components?
 
-* **Load Balancer:** This distributes incoming traffic across multiple backend services.
+* [**Load Balancer**](load-balance.md)**:** This distributes incoming traffic across multiple backend services.
 * **CDN (Content Delivery Network)**: CDN is a group of geographically distributed servers that hold static content for faster delivery. The clients look for content in CDN first, then progress to backend services.
 * **API Gateway**: This handles incoming requests and routes them to the relevant services. It talks to the identity provider and service discovery.
 * **Identity Provider**: This handles authentication and authorization for user
