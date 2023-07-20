@@ -95,6 +95,7 @@
 * [起手式](algorithm/qi-shou-shi.md)
 * [Constraints](algorithm/constraints.md)
 * [Matching Machine](algorithm/matching-machine.md)
+* [Token Bucket](algorithm/token-bucket.md)
 
 ## HPC
 
