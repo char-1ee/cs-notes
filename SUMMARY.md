@@ -54,6 +54,7 @@
 * [Go: context](go/go-context.md)
 * [Go: error handling](go/go-error-handling.md)
 * [Go: panic & recover](go/go-panic-and-recover.md)
+* [Go: Limiter](go/go-limiter.md)
 * [Gin: middleware](go/gin-middleware.md)
 * [gRPC: interceptor](go/grpc-interceptor.md)
 * [(FP) Map Reduce Filter](go/fp-map-reduce-filter.md)
