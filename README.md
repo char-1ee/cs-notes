@@ -1,3 +1,7 @@
-# Preface
+# Hi there!
 
-This GitBook is initially maintained for technical interviews, now it records my notes on Computer Science topics. Topics cover Java, C++, Design pattern, Algorithm, Android, Operating system, System design, Network, High performance computing and miscellaneous.&#x20;
+This is a collection of my computer science study notes. Welcome to reach me out.&#x20;
+
+Email: [xingjianli59@gmail.com](mailto:xingjianli59@gmail.com)
+
+GitHub: [github.com/char-1ee](https://github.com/char-1ee)

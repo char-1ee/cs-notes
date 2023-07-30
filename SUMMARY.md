@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Preface](README.md)
+* [Hi there!](README.md)
 
 ## Java
 
