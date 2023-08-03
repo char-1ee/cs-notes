@@ -2,7 +2,49 @@
 
 Goroutine synchronization. Similar to 'wait', 'notify', 'notifyAll' in Java.
 
-Scenarios:&#x20;
+### Usage&#x20;
+
+```go
+var sharedRsc = make(map[string]interface{})
+
+func main() {
+    var wg sync.WaitGroup
+    wg.Add(2)
+    m := sync.Mutex{}
+    c := sync.NewCond(&m)
+    go func() {
+        // this go routine wait for changes to the sharedRsc
+        c.L.Lock()
+        for len(sharedRsc) == 0 {
+            c.Wait()
+        }
+        fmt.Println(sharedRsc["rsc1"])
+        c.L.Unlock()
+        wg.Done()
+    }()
+
+    go func() {
+        // this go routine wait for changes to the sharedRsc
+        c.L.Lock()
+        for len(sharedRsc) == 0 {
+            c.Wait()
+        }
+        fmt.Println(sharedRsc["rsc2"])
+        c.L.Unlock()
+        wg.Done()
+    }()
+
+    // this one writes changes to sharedRsc
+    c.L.Lock()
+    sharedRsc["rsc1"] = "foo"
+    sharedRsc["rsc2"] = "bar"
+    c.Broadcast()
+    c.L.Unlock()
+    wg.Wait()
+}
+```
+
+### A case
 
 * Upstream: run M routines to register new users, and add users into \`users\` collection
 * Downstream: run N routines to listen \`users\`. Once the number of users reaches 100, it rewards the first H registered users, then end the routine.
@@ -206,4 +248,6 @@ func SignalWithCond() {
 
 ### Reference&#x20;
 
-A friendly tut: [https://geektutu.com/post/hpg-sync-cond.html](https://geektutu.com/post/hpg-sync-cond.html)
+[https://geektutu.com/post/hpg-sync-cond.html](https://geektutu.com/post/hpg-sync-cond.html)
+
+[https://stackoverflow.com/questions/36857167/how-to-correctly-use-sync-cond](https://stackoverflow.com/questions/36857167/how-to-correctly-use-sync-cond)
