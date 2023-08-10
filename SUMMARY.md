@@ -99,6 +99,7 @@
 * [Constraints](algorithm/constraints.md)
 * [Matching Machine](algorithm/matching-machine.md)
 * [Token Bucket](algorithm/token-bucket.md)
+* [Topological Sort](algorithm/topological-sort.md)
 
 ## HPC
 
