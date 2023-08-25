@@ -112,6 +112,7 @@
 * [Modules](hpc/modules.md)
 * [Compilation](hpc/compilation.md)
 * [MPI](hpc/mpi.md)
+* [Time](hpc/time.md)
 
 ## OS
 
