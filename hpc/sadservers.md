@@ -24,3 +24,10 @@ sort | uniq -c \
 # sort ascendingly and echo
 sort -r | head -1 | awk '{print $2}' > ~/highestip.txt
 ```
+
+#### "Santiago": find the secret combination
+
+```sh
+# Find the #lines where target string accurs
+find ./ -type f -name "*.txt" | xargs grep -c "Alice"
+```
