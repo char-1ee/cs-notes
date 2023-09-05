@@ -113,6 +113,7 @@
 * [Compilation](hpc/compilation.md)
 * [MPI](hpc/mpi.md)
 * [Time](hpc/time.md)
+* [InfiniBand](hpc/infiniband.md)
 * [SadServers](hpc/sadservers.md)
 
 ## OS
