@@ -50,3 +50,10 @@ du -sh /opt/pgdata/main
 rm file1.bk
 sudo systemctl start postgresql
 ```
+
+Postgresql is a systemd service, so need check systemd related logs:
+
+journalctl: query and display logs from journald - systemd's logging service
+
+/var/log/syslog: store all global system activity data, including startup messages
+
