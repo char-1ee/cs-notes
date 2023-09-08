@@ -31,3 +31,22 @@ sort -r | head -1 | awk '{print $2}' > ~/highestip.txt
 # Find the #lines where target string accurs
 find ./ -type f -name "*.txt" | xargs grep -c "Alice"
 ```
+
+#### "Manhattan": can't write data into database
+
+```bash
+# 1. Run the test and check the process
+sudo systemctl status postgresql 
+sudo systemctl start postgresql
+
+# 2. Check services error 
+journalctl -u postgresql
+
+# 3. Check system logs
+cat /var/log/syslog
+
+# 4. Find that pg cannot run because no extra space on disk, clear and test
+du -sh /opt/pgdata/main
+rm file1.bk
+sudo systemctl start postgresql
+```
