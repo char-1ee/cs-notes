@@ -116,6 +116,8 @@
 * [Time](hpc/time.md)
 * [InfiniBand](hpc/infiniband.md)
 * [SadServers](hpc/sadservers.md)
+* [Linux performance tools](hpc/linux-performance-tools.md)
+* [Linux Load Averages](hpc/linux-load-averages.md)
 
 ## OS
 
