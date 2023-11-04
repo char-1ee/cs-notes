@@ -113,7 +113,7 @@
 * [Modules](hpc/modules.md)
 * [Compilation](hpc/compilation.md)
 * [MPI](hpc/mpi.md)
-* [Time](hpc/time.md)
+* [Wall time vs. CPU time](hpc/wall-time-vs.-cpu-time.md)
 * [InfiniBand](hpc/infiniband.md)
 * [SadServers](hpc/sadservers.md)
 * [Linux performance tools](hpc/linux-performance-tools.md)
