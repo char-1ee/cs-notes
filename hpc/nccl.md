@@ -40,14 +40,16 @@ How to form a ring:
 ### NCCL implementation
 
 * 3 primitives: Copy, Reduce, ReduceAndCopy
-* NCCL 2.0 supports multi-node, multi-cards
+* Start from NCCL 2.0 supporting multi-node, multi-cards
 
 <figure><img src="../.gitbook/assets/v2-5614a5e2da87f34b0b76eabe40339f35_720w.png" alt=""><figcaption><p>Form communication ring</p></figcaption></figure>
+
+* Ring-based algorithm scales latency with number of GPUs. Thus, new algorithms like 2D ring algorithm introduced in NCCL 2.4 to replace flat ring algorithm.
 
 ### Practices
 
 * \`torch.distributed()\` supports 3 native backend: NCCL, Gloo, MPI.&#x20;
-* Suggested to use nightly build of NCCL from source for ML model training.
+* Suggested to use nightly build of NCCL (>=2.4) from source for ML model training.
 
 ### Reference
 
