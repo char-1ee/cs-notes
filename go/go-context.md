@@ -50,7 +50,7 @@ f1产生的参数b要传给f2，虽然f2并不需要参数b，但f3需要，所�
 
 如果把每一步产生的新变量都放到Context这个大容器里，函数之间只传递Context，需要什么变量时直接从Context里取，如下图：
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" %}
 ```go

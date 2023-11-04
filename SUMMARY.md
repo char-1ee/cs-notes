@@ -118,6 +118,8 @@
 * [SadServers](hpc/sadservers.md)
 * [Linux performance tools](hpc/linux-performance-tools.md)
 * [Linux Load Averages](hpc/linux-load-averages.md)
+* [PCIe, NVLink, InfiniBand](hpc/pcie-nvlink-infiniband.md)
+* [NCCL](hpc/nccl.md)
 
 ## OS
 
