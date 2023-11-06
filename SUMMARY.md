@@ -120,6 +120,7 @@
 * [Linux Load Averages](hpc/linux-load-averages.md)
 * [PCIe, NVLink, InfiniBand](hpc/pcie-nvlink-infiniband.md)
 * [NCCL](hpc/nccl.md)
+* [LLM efficient inference](hpc/llm-efficient-inference.md)
 
 ## OS
 
