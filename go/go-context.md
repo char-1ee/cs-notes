@@ -44,7 +44,7 @@ func TODO() Context {
 
 当业务逻辑比较复杂，函数调用链很长时，参数传递会很复杂，如下图：
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 f1产生的参数b要传给f2，虽然f2并不需要参数b，但f3需要，所以b还是得往后传。
 

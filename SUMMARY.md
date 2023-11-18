@@ -135,6 +135,8 @@
 * [Zero-copy](os/zero-copy.md)
 * [OOM, memory leak](os/oom-memory-leak.md)
 * [Page Fault](os/page-fault.md)
+* [Intruction pipelining](os/intruction-pipelining.md)
+* [OS-level program performance optimization](os/os-level-program-performance-optimization.md)
 
 ## System design
 
