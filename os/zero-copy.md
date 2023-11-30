@@ -1,5 +1,11 @@
 # Zero-copy
 
+#### Choice of zero copy techiques
+
+If want to access and manipulate file content -> mmap()
+
+If just moving data between files -> sendfile(), splice(), as they dont involve user space.
+
 ### References
 
 {% embed url="https://zhuanlan.zhihu.com/p/357820303" %}
