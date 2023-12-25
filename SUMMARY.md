@@ -41,6 +41,7 @@
 * [C++: lambda expression](c++/c++-lambda-expression.md)
 * [C++: Pointers](c++/c++-pointers.md)
 * [C++: const string&](c++/c++-const-string-and.md)
+* [C++: producer-comsumer model](c++/c++-producer-comsumer-model.md)
 * [Read Write Lock](c++/read-write-lock.md)
 * [Return Value Optimization (RVO)](c++/return-value-optimization-rvo.md)
 * [g++ cheatsheet](c++/g++-cheatsheet.md)
