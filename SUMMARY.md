@@ -183,3 +183,8 @@
 * [Interview](other/interview.md)
 * [ChatGPT prompt](other/chatgpt-prompt.md)
 * [Back-ups](other/back-ups.md)
+
+## Python
+
+* [Queue](python/queue.md)
+* [iterable vs. iterator](python/iterable-vs.-iterator.md)
