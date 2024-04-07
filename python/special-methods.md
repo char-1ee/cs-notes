@@ -76,3 +76,93 @@ class A:
         
 print(bytes(A()))
 ```
+
+### 5. \_\_getattr\_\_, \_\_setattr\_\_, \_\_delattr\_\_
+
+```python
+class A:
+    def __getattr__(self, name):
+        print(f"get {name}")
+        raise AttributeError
+        
+    def __getattribute__(self, name):
+        if name == "data":
+            self.counter += 1    # be cautious about the recursion calls
+        return self.__getattribute__(self, name)
+        
+o = A()
+print(o.test)
+```
+
+`__getattr__` is called only when you access a non-exitsing attribute in a class.
+
+`__getattribute__` is called when you access any attribue, not matter exists or not.
+
+```python
+class A:
+    def __init__(self):
+        self.data = "abc"
+        self.counter = 0
+    
+    def __setattr__(self, name, val):
+        print(f"set {name}")
+        super().__setattr__(name, val)
+        
+class B:
+    _attr = {} # class static variable
+    def __init__(self):
+        self.data = "abc"
+        
+    def __setattr__(self, name, val):
+        self._attr[name] = val
+        
+    def __getattr__(self, name):
+        if name not in self._attr:
+            raise AttributeError
+        return self._attr[name]
+```
+
+`_attr` is a class-level static variable, which means all objects of this call will copy `_attr` when being created.
+
+```python
+class A:
+    def __init__(self):
+        self.data = "abc"
+    
+    def __delattr__(self, name):
+        print(f"del {name}")
+        super().__delattr__(name)
+        
+o = A()
+del o.data # delete the 'data' attribute in object o
+```
+
+### 6. \_\_dir\_\_
+
+```python
+class A:
+    def __init__(self):
+        self.data = "abc"
+    
+    # For example, we return all attributes are not built-in
+    def __dir__(self):
+        lst = super().__dir__()
+        return [el for el in lst if not el.startswith("_")]
+
+o = A()
+print(dir(o))      
+```
+
+`__dir__` returns a sequence, that containes all accessiable methods and variables within an object, including builtin special methods.
+
+### 7. \_\_slots\_\_
+
+```python
+class A:
+    __solts__ = ['a', 'b']
+    
+o = A()
+o.a, o.b = 0, 1
+```
+
+`__slots__` is a whitelist that defines the attributes allowed to customize.
