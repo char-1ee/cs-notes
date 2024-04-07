@@ -189,3 +189,4 @@
 * [Queue](python/queue.md)
 * [iterable vs. iterator](python/iterable-vs.-iterator.md)
 * [Special methods](python/special-methods.md)
+* [\_\_slots\_\_](python/\_\_slots\_\_.md)
