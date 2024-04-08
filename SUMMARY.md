@@ -48,6 +48,15 @@
 * [C++11 and C++14](c++/c++11-and-c++14.md)
 * [C](c++/c.md)
 
+## Python
+
+* [Queue](python/queue.md)
+* [iterable vs. iterator](python/iterable-vs.-iterator.md)
+* [Special methods](python/special-methods.md)
+* [\_\_slots\_\_](python/\_\_slots\_\_.md)
+* [Generator](python/generator.md)
+* [Use less for-loop in Python](python/use-less-for-loop-in-python.md)
+
 ## GO
 
 * [How to write go code](go/how-to-write-go-code.md)
@@ -183,10 +192,3 @@
 * [Interview](other/interview.md)
 * [ChatGPT prompt](other/chatgpt-prompt.md)
 * [Back-ups](other/back-ups.md)
-
-## Python
-
-* [Queue](python/queue.md)
-* [iterable vs. iterator](python/iterable-vs.-iterator.md)
-* [Special methods](python/special-methods.md)
-* [\_\_slots\_\_](python/\_\_slots\_\_.md)
