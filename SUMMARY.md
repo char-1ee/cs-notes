@@ -55,6 +55,7 @@
 * [Special methods](python/special-methods.md)
 * [\_\_slots\_\_](python/\_\_slots\_\_.md)
 * [Generator](python/generator.md)
+* [Decorator](python/decorator.md)
 * [Use less for-loop in Python](python/use-less-for-loop-in-python.md)
 
 ## GO
