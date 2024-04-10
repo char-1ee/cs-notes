@@ -1,6 +1,6 @@
 # Decorator
 
-## Function decorator
+## Function decorator (decorate a function with function)
 
 Python function is also an Python object.
 
@@ -89,7 +89,7 @@ double = inner(double)
 double(2)      
 ```
 
-## Class decorator
+## Decorator  class (decorate a function with class)
 
 ```python
 class Timer:
@@ -113,6 +113,56 @@ print(add(2, 3))
 ```
 
 Special method `__call__` makes the class callable. Notice that when we do `add = Timer(add)`, we initialize an object of Timer and name it "add". Then when we call `add(2, 3)`, we are actually call the method `__call__` in this object, which we pass 2 and 3 into `__call__`.
+
+Also, decorator class supports adding arguments:
+
+```python
+class Timer:
+    def __init__(self, prefix):
+        self.prefix = prefix
+        
+    def __call__(self, func):
+        def wrapper(*args, **kwargs):
+            start = time.time()
+            ret = func(*args, **kwargs)
+            print(f"{self.prefix}{time.time() - start}")
+            return ret
+            
+        return wrapper
+        
+@Timer(prefix="curr_time: ")
+def add(a, b):
+    return a + b
+
+# Totally equivalent to
+add = Timer(prefix="curr_time")(add)
+    
+print(add(2, 3))
+```
+
+## Class decorator (decorate a class with function)
+
+```python
+def add_str(cls):
+    def __str__(self):
+        return str(self.__dict__)
+    
+    cls.__str__ = __str__
+    return cls
+    
+@add_str
+class MyObject:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+        
+# Totally equivalent to
+MyObject = add_str(MyObject) # return a class (not a object)
+
+o = MyObject(1, 2)
+print(o) 
+# {'a': 1, 'b': 2}
+```
 
 ## Summary
 
