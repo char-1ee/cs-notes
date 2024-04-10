@@ -172,3 +172,73 @@ Decorator is a callable, which lets&#x20;
 fn = dec(fn)
 cls = dec(cls)
 ```
+
+## Define a decorator inside a class
+
+```python
+class Decorators:
+    @staticmethod
+    def log_function(func):
+        def wrapper(*args, **kwargs):
+            print(f"function start")
+            print(f"args: {args}")
+            ret = func(*args, **kwargs)
+            print(f"function end")
+            return ret
+        
+        return wrapper
+        
+@Decorators.log_function
+def fib(n):
+    if n <= 1:
+        return 0
+    return fib(n - 1) + fib(n - 2)
+```
+
+We can use `@staticmethod` to put the decorater into certain namespace.
+
+But when we want to declae a decorator inside a class and then decorate other methods in the same class:
+
+```python
+class Decorators:
+    def log_function(func):
+        def wrapper(*args, **kwargs):
+            print(f"function start")
+            print(f"args: {args}")
+            ret = func(*args, **kwargs)
+            print(f"function end")
+            return ret
+        
+        return wrapper
+        
+    @log_function
+    def fib(n):
+        if n <= 1:
+            return 0
+        return fib(n - 1) + fib(n - 2)
+```
+
+In that case, there is no need to put `self` in the decorater function.\
+Another question, is there a way to make this decorator function private to this class? Only need to make your decorator function a staticmethod after you finish its use in the class, by adding one more line of code.
+
+```python
+class Decorators:
+    def log_function(func):
+        def wrapper(*args, **kwargs):
+            print(f"function start")
+            print(f"args: {args}")
+            ret = func(*args, **kwargs)
+            print(f"function end")
+            return ret
+        
+        return wrapper
+        
+    @log_function
+    def fib(n):
+        if n <= 1:
+            return 0
+        return fib(n - 1) + fib(n - 2)
+    
+    # Add one more line at the end of class
+    log_function = staticmethod(log_function)
+```
