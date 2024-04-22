@@ -113,6 +113,7 @@
 * [Token Bucket](algorithm/token-bucket.md)
 * [Topological Sort](algorithm/topological-sort.md)
 * [Trie](algorithm/trie.md)
+* [RankedDict](algorithm/rankeddict.md)
 
 ## HPC
 
