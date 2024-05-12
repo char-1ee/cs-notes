@@ -58,6 +58,8 @@
 * [Decorator](python/decorator.md)
 * [Use less for-loop in Python](python/use-less-for-loop-in-python.md)
 * [pdb](python/pdb.md)
+* [Garbage collection](python/garbage-collection.md)
+* [Python Virtual Machine (PVM)](python/python-virtual-machine-pvm.md)
 
 ## GO
 
