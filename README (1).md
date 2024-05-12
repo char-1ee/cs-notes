@@ -397,3 +397,4 @@ public List<User> query(@RequestBody List<Long> ids) {
 
 Thus, we judge with `isDebugEnabled`. Only when the log class is `debug` then print log. The default class is `info`, we can change it to `debug` in case of emergency.
 
+***
