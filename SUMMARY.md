@@ -2,25 +2,19 @@
 
 * [Hi there!](README.md)
 
-## Java
+## Python
 
-* [Optimize your Java code](<README (1).md>)
-* [If-else optimization](java/if-else-optimization.md)
-* [Java: hashCode() & equals()](java/java-hashcode-and-equals.md)
-* [Java: concurrency](java/java-concurrency/README.md)
-  * [Java: wait() & notify()](java/java-concurrency/java-wait-and-notify.md)
-  * [Java: Thread.join()](java/java-concurrency/java-thread.join.md)
-  * [Java: object-level lock & class-level lock](java/java-concurrency/java-object-level-lock-and-class-level-lock.md)
-  * [Print odd and even using 2 threads](java/java-concurrency/print-odd-and-even-using-2-threads.md)
-  * [Blocking Queue](java/java-concurrency/blocking-queue.md)
-* [Java: HashMap](java/java-hashmap.md)
-* [Java: control access](java/java-control-access.md)
-
-## Android
-
-* [Concurrent database access](android/concurrent-database-access.md)
-* [Raw database model](android/raw-database-model.md)
-* [Login screen checklist](android/login-screen-checklist.md)
+* [Queue](python/queue.md)
+* [iterable vs. iterator](python/iterable-vs.-iterator.md)
+* [Special methods](python/special-methods.md)
+* [\_\_slots\_\_](python/\_\_slots\_\_.md)
+* [Generator](python/generator.md)
+* [Decorator](python/decorator.md)
+* [Use less for-loop in Python](python/use-less-for-loop-in-python.md)
+* [pdb](python/pdb.md)
+* [Garbage collection](python/garbage-collection.md)
+* [Python Virtual Machine (PVM)](python/python-virtual-machine-pvm.md)
+* [Mixin](python/mixin.md)
 
 ## C++
 
@@ -48,19 +42,19 @@
 * [C++11 and C++14](c++/c++11-and-c++14.md)
 * [C](c++/c.md)
 
-## Python
+## Java
 
-* [Queue](python/queue.md)
-* [iterable vs. iterator](python/iterable-vs.-iterator.md)
-* [Special methods](python/special-methods.md)
-* [\_\_slots\_\_](python/\_\_slots\_\_.md)
-* [Generator](python/generator.md)
-* [Decorator](python/decorator.md)
-* [Use less for-loop in Python](python/use-less-for-loop-in-python.md)
-* [pdb](python/pdb.md)
-* [Garbage collection](python/garbage-collection.md)
-* [Python Virtual Machine (PVM)](python/python-virtual-machine-pvm.md)
-* [Mixin](python/mixin.md)
+* [Optimize your Java code](<README (1).md>)
+* [If-else optimization](java/if-else-optimization.md)
+* [Java: hashCode() & equals()](java/java-hashcode-and-equals.md)
+* [Java: concurrency](java/java-concurrency/README.md)
+  * [Java: wait() & notify()](java/java-concurrency/java-wait-and-notify.md)
+  * [Java: Thread.join()](java/java-concurrency/java-thread.join.md)
+  * [Java: object-level lock & class-level lock](java/java-concurrency/java-object-level-lock-and-class-level-lock.md)
+  * [Print odd and even using 2 threads](java/java-concurrency/print-odd-and-even-using-2-threads.md)
+  * [Blocking Queue](java/java-concurrency/blocking-queue.md)
+* [Java: HashMap](java/java-hashmap.md)
+* [Java: control access](java/java-control-access.md)
 
 ## GO
 
@@ -91,6 +85,28 @@
 * [Factory Pattern](design-pattern/factory-pattern.md)
 * [Singleton Pattern](design-pattern/singleton-pattern.md)
 * [Expressiveness by Abstraction](design-pattern/expressiveness-by-abstraction.md)
+* [Dependency Injection](design-pattern/dependency-injection.md)
+
+## HPC
+
+* [Basic concepts](other/hpc.md)
+* [SSH Tunneling](hpc/ssh-tunneling.md)
+* [Singularity](hpc/singularity.md)
+* [Scheduler](hpc/scheduler.md)
+* [System admin](hpc/system-admin.md)
+* [Transfer files](hpc/transfer-files.md)
+* [Modules](hpc/modules.md)
+* [Compilation](hpc/compilation.md)
+* [MPI](hpc/mpi.md)
+* [Wall time vs. CPU time](hpc/wall-time-vs.-cpu-time.md)
+* [InfiniBand](hpc/infiniband.md)
+* [SadServers](hpc/sadservers.md)
+* [Linux performance tools](hpc/linux-performance-tools.md)
+* [Linux Load Averages](hpc/linux-load-averages.md)
+* [PCIe, NVLink, InfiniBand](hpc/pcie-nvlink-infiniband.md)
+* [NCCL](hpc/nccl.md)
+* [LLM efficient inference](hpc/llm-efficient-inference.md)
+* [How to trace high CPU usage thread](hpc/how-to-trace-high-cpu-usage-thread.md)
 
 ## Algorithm
 
@@ -118,26 +134,6 @@
 * [Trie](algorithm/trie.md)
 * [RankedDict](algorithm/rankeddict.md)
 
-## HPC
-
-* [Basic concepts](other/hpc.md)
-* [SSH Tunneling](hpc/ssh-tunneling.md)
-* [Singularity](hpc/singularity.md)
-* [Scheduler](hpc/scheduler.md)
-* [System admin](hpc/system-admin.md)
-* [Transfer files](hpc/transfer-files.md)
-* [Modules](hpc/modules.md)
-* [Compilation](hpc/compilation.md)
-* [MPI](hpc/mpi.md)
-* [Wall time vs. CPU time](hpc/wall-time-vs.-cpu-time.md)
-* [InfiniBand](hpc/infiniband.md)
-* [SadServers](hpc/sadservers.md)
-* [Linux performance tools](hpc/linux-performance-tools.md)
-* [Linux Load Averages](hpc/linux-load-averages.md)
-* [PCIe, NVLink, InfiniBand](hpc/pcie-nvlink-infiniband.md)
-* [NCCL](hpc/nccl.md)
-* [LLM efficient inference](hpc/llm-efficient-inference.md)
-
 ## OS
 
 * [Library Procedure](os/library-procedure.md)
@@ -158,28 +154,26 @@
 
 * [Microservice](system-design/microservice.md)
 * [Load Balance](system-design/load-balance.md)
-* [How to maintain login status](system-design/how-to-maintain-login-status.md)
-* [How to store historical data](system-design/how-to-store-historical-data.md)
 * [Database Indexes](system-design/database-indexes.md)
 * [Tiny Web Server](system-design/tiny-web-server.md)
 * [Proxy vs. Reverse Proxy](system-design/proxy-vs.-reverse-proxy.md)
 * [Jump Server](system-design/jump-server.md)
 * [Better GitHub Workflow](system-design/better-github-workflow.md)
 * [Singleton class with DCL](system-design/singleton-class-with-dcl.md)
-* [Dependency Injection](system-design/dependency-injection.md)
-* [Pagination](system-design/pagination.md)
 * [Lock Free Queue](system-design/lock-free-queue.md)
-* [How to trace high CPU usage thread](system-design/how-to-trace-high-cpu-usage-thread.md)
-* [API optimization](system-design/api-optimization.md)
 * [Code of Connect 2023](system-design/code-of-connect-2023.md)
 * [Why can't inspect Twitter web?](system-design/why-cant-inspect-twitter-web/README.md)
   * [Server-Sent Events (SSE)](system-design/why-cant-inspect-twitter-web/server-sent-events-sse.md)
 
-## DB
+## Backend
 
-* [数据库事务](db/shu-ju-ku-shi-wu.md)
-* [数据库索引](db/shu-ju-ku-suo-yin.md)
-* [Intern related](db/intern-related.md)
+* [Database transaction](backend/database-transaction.md)
+* [Database indexing](backend/database-indexing.md)
+* [Backend development basis](backend/backend-development-basis.md)
+* [API optimization](backend/api-optimization.md)
+* [Pagination](backend/pagination.md)
+* [How to maintain login status](backend/how-to-maintain-login-status.md)
+* [How to store historical data](backend/how-to-store-historical-data.md)
 
 ## NETWORK
 
@@ -188,6 +182,12 @@
 * [REST API](network/rest-api.md)
 * [Socket](network/socket.md)
 * [Network Centric](network/network-centric.md)
+
+## Android
+
+* [Concurrent database access](android/concurrent-database-access.md)
+* [Raw database model](android/raw-database-model.md)
+* [Login screen checklist](android/login-screen-checklist.md)
 
 ## Other
 

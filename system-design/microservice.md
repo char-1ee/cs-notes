@@ -4,7 +4,7 @@ description: A typical microservice architecture.
 
 # Microservice
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Typical architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="375"><figcaption><p>Typical architecture</p></figcaption></figure>
 
 #### What are the main components?
 
