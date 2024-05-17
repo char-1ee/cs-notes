@@ -60,6 +60,7 @@
 * [pdb](python/pdb.md)
 * [Garbage collection](python/garbage-collection.md)
 * [Python Virtual Machine (PVM)](python/python-virtual-machine-pvm.md)
+* [Mixin](python/mixin.md)
 
 ## GO
 
