@@ -77,7 +77,11 @@ Forr the generator expression, it generate each element on-the-fly during iterat
 
 ### Cache
 
+Refer to [LRU cache](https://xingjian-li.gitbook.io/cs/algorithm/lru-cache).
 
+### Copy-on-write
+
+[CopyOnWrite](https://en.wikipedia.org/wiki/Copy-on-write)即写时复制，如果大家对一份资源只有读请求时，那么资源是可以共享的，当某个访问者需要修改资源（写操作）时，就将资源拷贝一份给该访问者使用。即资源的拷贝被延迟到了第一次"写"的时候。CopyOnWrite最广为人知的两个应用场景，一个是Unix like系统fork调用产生的子进程共享父进程的地址空间，知道写操作才会拷贝一份。另一个是java中的copyonwrite容器，用于多线程并发情况下的高效访问，[cookshell](http://coolshell.cn/articles/11175.html)上有对copyonwrite容器的详细介绍
 
 ## Reference
 
