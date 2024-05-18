@@ -86,6 +86,7 @@
 * [Singleton Pattern](design-pattern/singleton-pattern.md)
 * [Expressiveness by Abstraction](design-pattern/expressiveness-by-abstraction.md)
 * [Dependency Injection](design-pattern/dependency-injection.md)
+* [Lazy ideas in programming](design-pattern/lazy-ideas-in-programming.md)
 
 ## HPC
 
@@ -115,6 +116,7 @@
 * [Sliding window](algorithm/sliding-window.md)
 * [Sieve of Eratosthenes](algorithm/sieve-of-eratosthenes.md)
 * [Sorting](algorithm/sorting.md)
+* [LRU cache](algorithm/lru-cache.md)
 * [LRU-K and 2Q Algorithm](algorithm/lru-k-and-2q-algorithm.md)
 * [Kadane's Algorithm](algorithm/kadanes-algorithm.md)
 * [Longest Common Subsequence](algorithm/longest-common-subsequence.md)
