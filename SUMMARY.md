@@ -88,6 +88,10 @@
 * [Dependency Injection](design-pattern/dependency-injection.md)
 * [Lazy ideas in programming](design-pattern/lazy-ideas-in-programming.md)
 
+## LLM
+
+* [Survery on LLM inference optimizations](llm/survery-on-llm-inference-optimizations.md)
+
 ## HPC
 
 * [Basic concepts](other/hpc.md)
@@ -106,8 +110,8 @@
 * [Linux Load Averages](hpc/linux-load-averages.md)
 * [PCIe, NVLink, InfiniBand](hpc/pcie-nvlink-infiniband.md)
 * [NCCL](hpc/nccl.md)
-* [LLM efficient inference](hpc/llm-efficient-inference.md)
 * [How to trace high CPU usage thread](hpc/how-to-trace-high-cpu-usage-thread.md)
+* [How to create shared directory across nodes](hpc/how-to-create-shared-directory-across-nodes.md)
 
 ## Algorithm
 
