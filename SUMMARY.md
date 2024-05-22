@@ -87,6 +87,7 @@
 * [Expressiveness by Abstraction](design-pattern/expressiveness-by-abstraction.md)
 * [Dependency Injection](design-pattern/dependency-injection.md)
 * [Lazy ideas in programming](design-pattern/lazy-ideas-in-programming.md)
+* [Proxy Pattern](design-pattern/proxy-pattern.md)
 
 ## LLM
 
