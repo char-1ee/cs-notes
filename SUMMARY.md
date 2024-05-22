@@ -113,6 +113,7 @@
 * [NCCL](hpc/nccl.md)
 * [How to trace high CPU usage thread](hpc/how-to-trace-high-cpu-usage-thread.md)
 * [How to create shared directory across nodes](hpc/how-to-create-shared-directory-across-nodes.md)
+* [GPU Bound](hpc/gpu-bound.md)
 
 ## Algorithm
 
