@@ -106,7 +106,7 @@
 * [Modules](hpc/modules.md)
 * [Compilation](hpc/compilation.md)
 * [MPI](hpc/mpi.md)
-* [Timing](hpc/timing.md)
+* [Timing CPU](hpc/timing-cpu.md)
 * [InfiniBand](hpc/infiniband.md)
 * [SadServers](hpc/sadservers.md)
 * [Linux performance tools](hpc/linux-performance-tools.md)
