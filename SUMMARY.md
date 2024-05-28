@@ -93,6 +93,7 @@
 
 * [Survery on LLM inference optimizations](llm/survery-on-llm-inference-optimizations.md)
 * [Text generation strategies](llm/text-generation-strategies.md)
+* [Untitled](llm/untitled.md)
 
 ## HPC
 
@@ -115,6 +116,7 @@
 * [How to trace high CPU usage thread](hpc/how-to-trace-high-cpu-usage-thread.md)
 * [How to create shared directory across nodes](hpc/how-to-create-shared-directory-across-nodes.md)
 * [GPU Bound](hpc/gpu-bound.md)
+* [Timing CUDA kernals](hpc/timing-cuda-kernals.md)
 
 ## Algorithm
 

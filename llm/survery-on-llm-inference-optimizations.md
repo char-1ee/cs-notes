@@ -110,6 +110,6 @@ TVM, MLIR, JAX, OpenAI Triton, TASO, TorchInductor.
 
 ## Inference frameworks
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 [https://zhuanlan.zhihu.com/p/680635901](https://zhuanlan.zhihu.com/p/680635901)
