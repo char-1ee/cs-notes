@@ -64,4 +64,6 @@ Before you consider implementing a reverse SSH tunnel, the parameter “GatewayP
 
 {% embed url="https://blogs.perficient.com/2021/08/10/how-to-understand-ssh-tunneling-and-its-use-cases/" %}
 
+{% embed url="https://iximiuz.com/en/posts/ssh-tunnels/" %}
+
 {% embed url="https://unix.stackexchange.com/questions/46235/how-does-reverse-ssh-tunneling-work" %}
