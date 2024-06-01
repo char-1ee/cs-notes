@@ -7,6 +7,7 @@
 * [Queue](python/queue.md)
 * [iterable vs. iterator](python/iterable-vs.-iterator.md)
 * [Special methods](python/special-methods.md)
+* [\_\_init\_\_ vs. \_\_new\_\_](python/\_\_init\_\_-vs.-\_\_new\_\_.md)
 * [\_\_slots\_\_](python/\_\_slots\_\_.md)
 * [Generator](python/generator.md)
 * [Decorator](python/decorator.md)
@@ -99,6 +100,7 @@
 
 * [Basic concepts](other/hpc.md)
 * [SSH Tunneling](hpc/ssh-tunneling.md)
+* [SSH ProxyJump](hpc/ssh-proxyjump.md)
 * [Singularity](hpc/singularity.md)
 * [Scheduler](hpc/scheduler.md)
 * [System admin](hpc/system-admin.md)

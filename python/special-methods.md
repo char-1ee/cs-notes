@@ -23,6 +23,8 @@ o = A()
 # __init__(obj)
 ```
 
+`__new__` is the method to new a instance of current class, while `__init__` is the method called to init this instance. Thus, `__new__` is always called before `__init__`.
+
 `__new__` is less frequently used. But can used when you want to customized the creation of an object. For example, creating a Singleton class, which is before creating an object, it checks whether there are other objects already created.
 
 `__new__` must return the class object, `__init__` does not need return.
