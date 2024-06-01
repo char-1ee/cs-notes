@@ -99,6 +99,7 @@
 ## HPC
 
 * [Basic concepts](other/hpc.md)
+* [SSH basics](hpc/ssh-basics.md)
 * [SSH Tunneling](hpc/ssh-tunneling.md)
 * [SSH ProxyJump](hpc/ssh-proxyjump.md)
 * [Singularity](hpc/singularity.md)

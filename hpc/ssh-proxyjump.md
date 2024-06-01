@@ -1,8 +1,8 @@
 # SSH ProxyJump
 
-Access server C directly from client A through jump server B using SSH, which involves setting up an SSH tunnel or using the ProxyJump feature. Here are the steps for both methods:
+Access server C directly from client A through jump server B using SSH, which involves setting up an SSH tunnel or using the ProxyJump feature. Here are the steps for both methods (jump server and host server must both have public keys):
 
-#### Method 1: Using ProxyJump
+### Method 1: Using ProxyJump
 
 The `ProxyJump` directive (introduced in OpenSSH 7.3) simplifies the process of using a jump host. You can use the `-J` option directly in your SSH command:
 
@@ -27,7 +27,7 @@ After adding these configurations, you can connect to server C simply by running
 ssh C
 ```
 
-#### Method 2: Using an SSH Tunnel
+### Method 2: Using an SSH Tunnel
 
 If you're using an older version of SSH that does not support `ProxyJump`, you can use an SSH tunnel instead. You would set up your SSH config file (`~/.ssh/config`) like this:
 
@@ -44,9 +44,9 @@ Host C
 
 This configuration uses `ProxyCommand` to create a tunnel through B to reach C. You would simply use the command `ssh C` to connect directly to C, tunneling through B.
 
-#### Keeping the Connection Alive
+### Keeping the Connection Alive
 
-To prevent the SSH session from timing out, you can add these settings in your SSH config file under the respective host entries:
+To prevent the SSH session from timing out, you can add these settings in your client SSH config file under the respective host entries:
 
 ```plaintext
 ServerAliveInterval 60
