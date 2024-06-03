@@ -92,9 +92,9 @@ Pytorch executes GPU kernels asynchronously. While a CUDA kernel runs on GPU, th
 
 Call `torch.cuda.synchronize()` before taking a timing measurement. It waits all kernels in all CUDA streams to complete.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```python
 import torch
@@ -144,7 +144,7 @@ torch.cuda.synchronize()
 times = [s.elapsed_time(e) for s, e in zip(start_events, end_events)]
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>step = 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>step = 2</p></figcaption></figure>
 
 When you place a `cuda.Event()` before and after a kernel launch, the events are enqueued into the CUDA stream right alongside the kernel. However, they do not cause the CPU to wait. They only mark the points in time when they reach that position in the stream. Since the timing is handled entirely by the GPU and the events are processed as part of the normal stream execution, there's no additional overhead from the CPU waiting or checking the status. This means that the recorded time pertains purely to GPU activity between the events, excluding the CPU-side overhead of launching the kernel.
 

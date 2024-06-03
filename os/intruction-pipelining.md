@@ -10,7 +10,7 @@ Classic RISC pipelines:
 
 By clock signal, these steps form a pipeline:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="476"><figcaption></figcaption></figure>
 
 ### Instruction Level Parallelism
 
@@ -18,13 +18,13 @@ Each phrase uses different hardware resources, such that the execute periods of 
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>ILP</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>ILP</p></figcaption></figure>
 
 ### Superscalar
 
 Superscalar, implements multiple instruction pipeline in CPU to realize real instruction parallelism. In each clock cycel, CPU reads 2 instructions simultaneously, decodes them, executes and writes back at the same time.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Pipeline hazard
 
