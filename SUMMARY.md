@@ -94,7 +94,7 @@
 
 * [Survery on LLM inference optimizations](llm/survery-on-llm-inference-optimizations.md)
 * [Text generation strategies](llm/text-generation-strategies.md)
-* [Untitled](llm/untitled.md)
+* [Inference paper collections](llm/inference-paper-collections.md)
 
 ## HPC
 
