@@ -37,7 +37,7 @@ In summary, NVLink excels in high-speed GPU communication, PCIe provides flexibi
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>NVLink Edition Servers</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>PCIe Edition Servers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>PCIe Edition Servers</p></figcaption></figure>
 
 ### nvidia-smi topo -m
 

@@ -4,18 +4,20 @@
 
 ## Python
 
-* [Queue](python/queue.md)
-* [iterable vs. iterator](python/iterable-vs.-iterator.md)
+* [Python: Queue](python/python-queue.md)
+* [Python: iterable vs. iterator](python/python-iterable-vs.-iterator.md)
+* [Python: \_\_init\_\_ vs. \_\_new\_\_](python/python-\_\_init\_\_-vs.-\_\_new\_\_.md)
+* [Python: \_\_slots\_\_](python/python-\_\_slots\_\_.md)
+* [Python: mixin](python/python-mixin.md)
 * [Special methods](python/special-methods.md)
-* [\_\_init\_\_ vs. \_\_new\_\_](python/\_\_init\_\_-vs.-\_\_new\_\_.md)
-* [\_\_slots\_\_](python/\_\_slots\_\_.md)
 * [Generator](python/generator.md)
 * [Decorator](python/decorator.md)
 * [Use less for-loop in Python](python/use-less-for-loop-in-python.md)
 * [pdb](python/pdb.md)
 * [Garbage collection](python/garbage-collection.md)
 * [Python Virtual Machine (PVM)](python/python-virtual-machine-pvm.md)
-* [Mixin](python/mixin.md)
+* [torch: ProcessGroup](python/torch-processgroup.md)
+* [torch: DeviceMesh](python/torch-devicemesh.md)
 
 ## C++
 
