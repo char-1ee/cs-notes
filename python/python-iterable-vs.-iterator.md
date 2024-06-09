@@ -1,14 +1,16 @@
-# iterable vs. iterator
+# Python: iterable vs. iterator
 
-#### Iterable
+### Iterable
 
-1. A object capable of returning members one by one.
-2. A iterable can be used in a for loop, must implements `__iter__()`
+1. A object capable of returning members one at a time (e.g. list, tuple, dict, set, string).
+2. A iterable can be used in a for loop, and to consider as a iterable, an object must implements `__iter__()` which returns an iterator for that object.
 
-#### Iterator
+### Iterator
 
-1. An object that represents a stream of data
-2. A iterator class must override `__next__()`
+1. An object that represents a stream of data returned one element at a time.&#x20;
+2. A iterator object must override 2 methods:&#x20;
+   1. `__iter__()`returns the iterator object itself.&#x20;
+   2. `__next__()` returns the next item from the stream. When no more data are available, it raises  a \`StopIteration\` exception.
 
 ```python
 ## Iterate a linked list in for-loop
