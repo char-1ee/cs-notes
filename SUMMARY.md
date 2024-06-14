@@ -117,6 +117,7 @@
 * [Linux performance tools](hpc/linux-performance-tools.md)
 * [Linux Load Averages](hpc/linux-load-averages.md)
 * [PCIe, NVLink, InfiniBand](hpc/pcie-nvlink-infiniband.md)
+* [GPU networking](hpc/gpu-networking.md)
 * [NCCL](hpc/nccl.md)
 * [How to trace high CPU usage thread](hpc/how-to-trace-high-cpu-usage-thread.md)
 * [How to create shared directory across nodes](hpc/how-to-create-shared-directory-across-nodes.md)
