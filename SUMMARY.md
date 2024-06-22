@@ -92,11 +92,12 @@
 * [Lazy ideas in programming](design-pattern/lazy-ideas-in-programming.md)
 * [Proxy Pattern](design-pattern/proxy-pattern.md)
 
-## LLM
+## ML
 
-* [Survery on LLM inference optimizations](llm/survery-on-llm-inference-optimizations.md)
-* [Text generation strategies](llm/text-generation-strategies.md)
-* [Inference paper collections](llm/inference-paper-collections.md)
+* [Survery on LLM inference optimizations](ml/survery-on-llm-inference-optimizations.md)
+* [Text generation strategies](ml/text-generation-strategies.md)
+* [SplitWise](ml/splitwise.md)
+* [Multi-Head Attention](ml/multi-head-attention.md)
 
 ## HPC
 

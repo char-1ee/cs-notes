@@ -1,6 +1,4 @@
-# Inference paper collections
-
-SplitWise
+# SplitWise
 
 ### Insights
 
