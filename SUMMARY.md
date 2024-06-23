@@ -94,11 +94,14 @@
 
 ## ML
 
-* [Survery on LLM inference optimizations](ml/survery-on-llm-inference-optimizations.md)
+* [Survey on efficient LLM inference](ml/survey-on-efficient-llm-inference.md)
 * [Text generation strategies](ml/text-generation-strategies.md)
 * [SplitWise](ml/splitwise.md)
 * [Multi-Head Attention](ml/multi-head-attention.md)
 * [KV Cache](ml/kv-cache.md)
+* [(WIP) Tensor Parallelism](ml/wip-tensor-parallelism.md)
+* [(WIP) vLLM](ml/wip-vllm.md)
+* [Survey on model deployment and serving](ml/survey-on-model-deployment-and-serving.md)
 
 ## HPC
 

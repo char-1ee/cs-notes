@@ -10,13 +10,13 @@
 6. Prefill阶段能充分使用算力，Decode阶段不能
 7. Decode阶段可以使用性能较弱、成本较低的设备
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### KV cache transfer
 
 这种分离架构的方案引入的最大开销就是把KV Cache从Prefill阶段迁移到Decode阶段的开销。其为了减小这方面的开销，也做了一些优化：
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 (a) 如果使用的是未经优化的线性KV Cache传输，那么所经历的时间就包括Prompt时间，等待KV Cache传输的时间和Token的时间。
 

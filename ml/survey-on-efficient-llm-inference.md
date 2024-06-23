@@ -1,4 +1,8 @@
-# Survery on LLM inference optimizations
+---
+description: This page focus on the System side
+---
+
+# Survey on efficient LLM inference
 
 LLM inference optimization methods
 
@@ -112,4 +116,8 @@ TVM, MLIR, JAX, OpenAI Triton, TASO, TorchInductor.
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-[https://zhuanlan.zhihu.com/p/680635901](https://zhuanlan.zhihu.com/p/680635901)
+## Reference
+
+Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems
+
+{% embed url="https://zhuanlan.zhihu.com/p/680635901" %}

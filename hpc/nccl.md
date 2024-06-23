@@ -11,11 +11,11 @@ description: Nvidia Collective multi-GPU Communication Library
 
 Receive data from multi-sender and combine to one node
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Reduce</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>Reduce</p></figcaption></figure>
 
 Receive data from multi-sender and combine to every node
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>All-reduce</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption><p>All-reduce</p></figcaption></figure>
 
 Collective communication assumes the topology of nodes is a fat tree, which has highest communication efficiency. But real topology could be more complex, then ring-based collective communication is applied.
 
