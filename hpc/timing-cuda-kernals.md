@@ -227,11 +227,11 @@ def flush_cache():
 
 What if kernel execution is quicker than the kernel launch?
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>GPU overrun CPU</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>GPU overrun CPU</p></figcaption></figure>
 
 The simplest solution is to saturate the command queue prior to launching the target kernel.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Launch a sufficiently expensive kernel prior to the operations we are interested in, thus creating a backlog. A cleaner solution is to ask the GPU to wait for a fixed number of instruction cycles, either by using CUDA's `__nanosleep` or `torch.cuda._sleep()` :
 

@@ -47,5 +47,5 @@ CUDA API接口
 
 NVLink allows communication between 8 card in a node once a time. If exceed 8 cards, then there needs NVSwitch to implement many-to-many communication.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>NVSwitch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>NVSwitch</p></figcaption></figure>
 

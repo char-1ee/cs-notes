@@ -4,7 +4,7 @@ description: Why we dont have Q cache?
 
 # KV Cache
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>GPT2 architecture</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>GPT2 architecture</p></figcaption></figure>
 
 Notes about the GPT 2 architecture except Attention layer:
 
