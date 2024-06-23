@@ -20,7 +20,44 @@ Sp we got this finally:&#x20;
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>GPT2 with KV cache</p></figcaption></figure>
 
+```python
+class SimplifiedTransformerLayer(nn.Module):
+    def __init__(self, d_model, num_heads):
+        super().__init__()
+        self.qkv = nn.Linear(d_model, 3 * d_model)
+        self.out = nn.Linear(d_model, d_model)
+        self.d_model = d_model
+        self.num_heads = num_heads
 
+    def forward(self, x, kv_cache=None):
+        qkv = self.qkv(x)
+        q, k, v = qkv.chunk(3, dim=-1)
+        
+        if kv_cache is not None:
+            k_cache, v_cache = kv_cache
+            k = torch.cat([k_cache, k], dim=1)
+            v = torch.cat([v_cache, v], dim=1)
+        
+        # Compute attention
+        attn_output = self.attention(q, k, v)
+        
+        return self.out(attn_output), (k, v)
+
+    def attention(self, q, k, v):
+        # Simplified attention mechanism
+        scores = torch.matmul(q, k.transpose(-2, -1)) / (self.d_model ** 0.5)
+        attn_weights = torch.softmax(scores, dim=-1)
+        return torch.matmul(attn_weights, v)
+
+# Usage example
+layer = SimplifiedTransformerLayer(d_model=512, num_heads=8)
+input_seq = torch.randn(1, 10, 512)  # Batch size 1, sequence length 10
+output, kv_cache = layer(input_seq)
+
+# Next token prediction
+next_token = torch.randn(1, 1, 512)
+output, kv_cache = layer(next_token, kv_cache)
+```
 
 ### Reference
 
