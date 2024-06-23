@@ -98,6 +98,7 @@
 * [Text generation strategies](ml/text-generation-strategies.md)
 * [SplitWise](ml/splitwise.md)
 * [Multi-Head Attention](ml/multi-head-attention.md)
+* [KV Cache](ml/kv-cache.md)
 
 ## HPC
 
