@@ -1,6 +1,6 @@
 # GPU networking
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Summary</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Summary</p></figcaption></figure>
 
 Single node multi-card networking:
 
@@ -16,15 +16,15 @@ Multi-node multi-card networking:
 
 * GPUDirect P2P (Direct access + direct transfer)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>P2P</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>P2P</p></figcaption></figure>
 
 * GPUDirect RDMA: data transferring between GPU and RDMA&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>GRDMA</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>GRDMA</p></figcaption></figure>
 
 * GPUDirect Storage
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 普通存储IO路径
 

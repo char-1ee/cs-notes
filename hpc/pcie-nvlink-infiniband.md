@@ -35,13 +35,13 @@ In summary, NVLink excels in high-speed GPU communication, PCIe provides flexibi
 
 ### Server archs
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>NVLink Edition Servers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>NVLink Edition Servers</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>PCIe Edition Servers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>PCIe Edition Servers</p></figcaption></figure>
 
 ### nvidia-smi topo -m
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This picture shows that your system uses a combination of NVLink and PCIe connections for the GPUs and network interface cards (NICs).
 

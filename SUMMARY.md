@@ -95,13 +95,14 @@
 ## ML
 
 * [Survey on efficient LLM inference](ml/survery-on-llm-inference-optimizations.md)
+* [Survey on model deployment and serving](ml/survey-on-model-deployment-and-serving.md)
 * [Text generation strategies](ml/text-generation-strategies.md)
 * [SplitWise](ml/splitwise.md)
 * [Multi-Head Attention](ml/multi-head-attention.md)
 * [KV Cache](ml/kv-cache.md)
+* [PTD Parallelism](ml/ptd-parallelism.md)
 * [(WIP) Tensor Parallelism](ml/wip-tensor-parallelism.md)
 * [(WIP) vLLM](ml/wip-vllm.md)
-* [Survey on model deployment and serving](ml/survey-on-model-deployment-and-serving.md)
 * [(WIP) ByteDance's practice of offline inference with Ray](ml/wip-bytedances-practice-of-offline-inference-with-ray.md)
 
 ## HPC
