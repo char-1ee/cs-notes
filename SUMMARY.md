@@ -104,7 +104,7 @@
 * [PTD Parallelism](ml/ptd-parallelism.md)
 * [(WIP) Tensor Parallelism](ml/wip-tensor-parallelism.md)
 * [(WIP) vLLM](ml/wip-vllm.md)
-* [(WIP) ByteDance's practice of offline inference with Ray](ml/wip-bytedances-practice-of-offline-inference-with-ray.md)
+* [How ByteDance scale large data size offline inference with Ray](ml/how-bytedance-scale-large-data-size-offline-inference-with-ray.md)
 
 ## HPC
 

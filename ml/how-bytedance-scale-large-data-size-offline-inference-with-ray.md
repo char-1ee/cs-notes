@@ -1,6 +1,6 @@
-# (WIP) ByteDance's practice of offline inference with Ray
+# How ByteDance scale large data size offline inference with Ray
 
-## Use case
+Use case
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>ViT + Albert</p></figcaption></figure>
 
@@ -36,7 +36,7 @@ Ray Actor + Ray ObjectStore
 
 每个 Ray Cluster 由 Head 节点和 Worker 节点组成，每个节点是一份计算资源，可以是物理机、Docker 等等，在 K8s 上即为一个 Pod。启动 Ray Cluster 时，使用 KubeRay 的 Operator 来管理整个生命周期，包括创建和销毁 Cluster 等.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 用户可以通过内部的平台使用 Ray，通过提交 Job 或使用 Notebook 进行交互式编程。平台通过 Kuberay 提供的 YAML 和 Restful API 这两种方式进行操作。KubeRay 同时也支持自动扩展和水平扩展。Ray Cluster 在内部用于收集负载的 Metrics，并根据 Metrics 决定是否扩充更多的资源，如果需要则触发 Kuberay 拉起新的 Pod 或删除闲置的 Pod.
 
