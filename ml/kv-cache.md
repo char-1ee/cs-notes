@@ -18,9 +18,47 @@ The yellow strip in the tensor initially represents the last token of the input 
 
 Notice that Attention logits are decided by last row of attention score, but with the whole `V` and `K`. This tells that only the last row of `Q` participate the computation. That is the reason why we only need KV cache than QKV cache.
 
-Sp we got this finally:&#x20;
+So we got this finally:&#x20;
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>GPT2 with KV cache</p></figcaption></figure>
+
+### Why there is no Q cache in inference but KV cache?
+
+Math explanation (with Causal Mask)
+
+$$
+Attention(K, Q, V) = softmax(\frac{QK^\top}{\sqrt{d_k}})V,
+K, Q \in \mathbb{R}^{T \times d_k}, V \in \mathbb{R}^{T \times d_v}
+$$
+
+$$
+\mathcal{S}(QK^\top)V = \begin{bmatrix}
+\mathcal{S}_1(q_1 \cdot k_1) & 0 & \cdots & 0 \\
+\mathcal{S}_2(q_2 \cdot k_1) & \mathcal{S}_2(q_2 \cdot k_2) & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+\mathcal{S}_T(q_T \cdot k_1) & \mathcal{S}_T(q_T \cdot k_2) & \cdots & \mathcal{S}_T(q_T \cdot k_T)
+\end{bmatrix}
+\begin{bmatrix}
+v_1 \\
+v_2 \\
+\vdots \\
+v_T
+\end{bmatrix} =
+\begin{bmatrix}
+\mathcal{S}_1(q_1 \cdot k_1)v_1 \\
+\mathcal{S}_2(q_2 \cdot k_1)v_1 + \mathcal{S}_2(q_2 \cdot k_2)v_2 \\
+\vdots \\
+\mathcal{S}_T(q_T \cdot k_1)v_1 + \mathcal{S}_T(q_T \cdot k_2)v_2 + \cdots + \mathcal{S}_T(q_T \cdot k_T)v_T
+\end{bmatrix}
+$$
+
+
+
+$$
+[\mathcal{S}(QK^\top)V]_t = \sum_{j=1}^{t} \mathcal{S}_t(q_t \cdot k_j)v_j
+$$
+
+Note that, Q only provides `q_t` of current position in Attention computation. While KV provide elements from all positions into computation.&#x20;
 
 ### Example
 
@@ -66,3 +104,5 @@ output, kv_cache = layer(next_token, kv_cache)
 ### Reference
 
 {% embed url="https://medium.com/@fenriar/how-kv-cache-works-in-gpt-like-architecture-models-70f682396376" %}
+
+{% embed url="https://www.zhihu.com/question/653658936/answer/3545520807" %}
