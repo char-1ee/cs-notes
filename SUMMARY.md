@@ -105,6 +105,7 @@
 * [(WIP) Tensor Parallelism](ml/wip-tensor-parallelism.md)
 * [(WIP) vLLM](ml/wip-vllm.md)
 * [How ByteDance scale large data size offline inference with Ray](ml/how-bytedance-scale-large-data-size-offline-inference-with-ray.md)
+* [Transformer inference arithmetic](ml/transformer-inference-arithmetic.md)
 
 ## HPC
 
