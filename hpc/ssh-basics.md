@@ -1,8 +1,8 @@
 # SSH basics
 
-### .ssh directory
+## .ssh directory
 
-#### Client
+### Client
 
 *   `know_hosts`
 
@@ -14,7 +14,7 @@
 
     Not typically used on the client side unless the machine also acts as a server where other clients might connect.
 
-#### Server
+### Server
 
 * `authorized_keys`:
   * This file contains the public keys that are authorized for SSH access. When a client attempts to connect to the server, the server checks if the presented key matches one of the keys listed in this file.
@@ -25,7 +25,47 @@
 * `ssh_host_rsa_key.pub`, `ssh_host_dsa_key.pub`, `ssh_host_ecdsa_key.pub`, `ssh_host_ed25519_key.pub`:
   * These are the public parts of the server's host keys. They are presented to the client during the SSH handshake process to establish a secure connection.
 
-### Passwordless authentication
+## ssh config
+
+```bash
+Host Server1
+    Hostname 172.16.0.2
+    User lixingjian
+    Port 207
+    ServerAliveInterval 190
+    IdentityFile ~/.ssh/secret_key.pem
+```
+
+### Wildcard
+
+If you have a bunch of nodes in a cluster:
+
+```bash
+Host Server*
+    User lixingjian
+    Port 207
+    IdentityFile ~/.ssh/secret_key.pem
+    
+Host Server1
+    Hostname 172.16.0.1
+
+Host Server2
+    Hostname 172.16.0.2
+
+Host Server3
+    Hostname 172.16.0.3
+```
+
+### Refer to other files
+
+If want to include other/all config files under `~/.ssh/`
+
+```bash
+Include config-cluster-shanghai
+Include config-*
+```
+
+## Passwordless authentication
 
 ```bash
 # 1. generate ssh keys
@@ -59,3 +99,23 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAD... user@client" >> ~/.ssh/authorized_keys
 chmod 700 ~/.ssh                 # accessible
 chmod 600 ~/.ssh/authorized_keys # readable
 ```
+
+## Batch operation
+
+pssh: [https://tonydeng.github.io/2014/12/08/pssh/](https://tonydeng.github.io/2014/12/08/pssh/)
+
+<pre class="language-bash"><code class="lang-bash"># Installation
+$ python -m pip install pss
+
+# Prepare iplist
+$ vim iplist
+Server1
+Server2
+
+# Batch operation
+<strong>$ pssh -ih iplist echo Hello
+</strong>[1] 14:27:50 [SUCCESS] Server1
+Hello
+[2] 14:27:50 [SUCCESS] Server2
+Hello
+</code></pre>
