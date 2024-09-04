@@ -194,6 +194,7 @@
 * [Why can't inspect Twitter web?](system-design/why-cant-inspect-twitter-web/README.md)
   * [Server-Sent Events (SSE)](system-design/why-cant-inspect-twitter-web/server-sent-events-sse.md)
 * [CAP theorem](system-design/cap-theorem.md)
+* [Actor model](system-design/actor-model.md)
 
 ## Backend
 
