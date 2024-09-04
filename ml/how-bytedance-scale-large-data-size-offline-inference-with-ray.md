@@ -2,7 +2,7 @@
 
 Use case
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>ViT + Albert</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>ViT + Albert</p></figcaption></figure>
 
 在这个案例中，我们同时对两个模型进行切分：一个 GPU 里面一部分放 Albert 的 Layers，另一部分是 Vit 的 Layers，其中 Embedding 层通常比较大，所以单独切到一个分组中。作业总共包含了3个 Stage，Stage 间传递 Image 和文本 Tokerns。因此这 3 个 Stage 所需的计算资源是不同的，即需要弹性分配算力的能力.
 
@@ -10,7 +10,7 @@ Use case
 
 Ray Actor + Ray ObjectStore
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>V1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>V1</p></figcaption></figure>
 
 > 而使用 Ray 就只需要启动两个 Actor，对应 Spark 的两个 Executor。但是这两个 Actor 可以分别加载两个模型分组的参数，两个 Actor 间的执行过程可以 Pipeline 起来，数据样本依次经过两个 Actor。此外也可以非常方便地再增加一个 CPU 上的 Actor 专门做数据的读取或存储。框架通过使用 Ray ObjectStore 存储中间结果数据，纯内存存储避免了序列化的开销，并且可以显著提高执行效率，由此可见在此类场景下，使用 Ray 相比于 Spark 可以显著地提升效率。
 
@@ -22,7 +22,7 @@ Ray Actor + Ray ObjectStore
 > * 使用 API 调试参数困难；
 > * 缺乏容错和推测执行能力。
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>V2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>V2</p></figcaption></figure>
 
 > 为了解决以上问题，我们开发了第二版推理框架。深入到 Ray Datasets Pipeline 的内部实现中添加了 Streaming 执行语义。各个 Stage 通过 Queue 前后连接起来，Queue 中传递的是 Ray Object Reference 而不是实际数据，实际数据在 Actor 侧。相当于我们写程序时函数之间传递指针数组而不是实际数据。
 >

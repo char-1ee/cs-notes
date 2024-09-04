@@ -24,7 +24,7 @@ OpenPPL-LLM 推理系统包含 4 部分：
 
 {% embed url="https://pytorch.org/serve/" %}
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Arch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Arch</p></figcaption></figure>
 
 ### Torchrun
 
@@ -58,7 +58,7 @@ Env&#x20;
 * serve接口主要提供集群管理, API服务的接口，比如autoscaling, ingress, endpoints etc.
 * Example: Ray serve with vLLM [https://docs.ray.io/en/latest/serve/tutorials/vllm-example.html](https://docs.ray.io/en/latest/serve/tutorials/vllm-example.html)
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Example</p></figcaption></figure>
 
 ### Ray Cluster
 
