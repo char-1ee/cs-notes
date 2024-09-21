@@ -13,6 +13,7 @@
 * [Python: generator](python/python-generator.md)
 * [Python: decorator](python/python-decorator.md)
 * [Python: async/await](python/python-async-await.md)
+* [Python: multiprocessing vs. threading](python/python-multiprocessing-vs.-threading.md)
 * [Use less for-loop in Python](python/use-less-for-loop-in-python.md)
 * [pdb](python/pdb.md)
 * [Garbage collection](python/garbage-collection.md)
