@@ -62,3 +62,51 @@ $ go mod tidy
 $ go install example/user/hello
 $ hello
 ```
+
+\-----------------------------------------------
+
+Update: Some common used commands
+
+```bash
+# Build and running
+go run main.go    # Compile and run in one step
+go build            # Build the package in current directory
+go build main.go    # Build a specific file
+go install        # Compile and install packages
+
+# Package management
+go mod init <name>    # Initialize a new module
+go mod tidy            # Add missing and remove unused modules
+go get <package>        # Download and install package
+go get -u             # Update all dependencies
+go mod vendor         # Create vendor directory
+go list -m all        # List all dependencies
+
+# Testing
+go test            # Run tests in current directory
+go test ./...        # Run all tests in current directory and sub-directories
+go test -v         # Run tests with verbose output
+go test -cover        # Run tests with coverage analysis
+
+# Code quality
+go fmt            # Format go source code
+go vet            # Report likely mistakes in packages
+go clean            # Remove object files and cached files
+
+# Information
+go version    
+go env
+go list
+go doc <package-name>
+
+# Cross-compilation
+
+# Build for Windows from Linux/Mac
+GOOS=windows GOARCH=amd64 go build
+
+# Build for Linux from Windows/Mac
+GOOS=linux GOARCH=amd64 go build
+
+# Build for Mac from Linux/Windows
+GOOS=darwin GOARCH=amd64 go build
+```
