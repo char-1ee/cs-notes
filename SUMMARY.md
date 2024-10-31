@@ -215,6 +215,7 @@
 * [REST API](network/rest-api.md)
 * [Socket](network/socket.md)
 * [Network Centric](network/network-centric.md)
+* [Useful command to test network connectivity](network/useful-command-to-test-network-connectivity.md)
 
 ## Android
 
