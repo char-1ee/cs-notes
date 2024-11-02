@@ -81,6 +81,7 @@
 * [Implement a buffered IO](go/implement-a-buffered-io.md)
 * [Implement a customized logger](go/implement-a-customized-logger.md)
 * [API Practices in Go](go/api-practices-in-go.md)
+* [Some Go concurrency patterns](go/some-go-concurrency-patterns.md)
 
 ## Design pattern
 
