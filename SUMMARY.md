@@ -127,6 +127,7 @@
 * [SadServers](hpc/sadservers.md)
 * [Linux performance tools](hpc/linux-performance-tools.md)
 * [Linux Load Averages](hpc/linux-load-averages.md)
+* [Crontab](hpc/crontab.md)
 * [PCIe, NVLink, InfiniBand](hpc/pcie-nvlink-infiniband.md)
 * [GPU networking](hpc/gpu-networking.md)
 * [NCCL](hpc/nccl.md)
