@@ -80,7 +80,7 @@ Java provides the _Semaphore_ class in the _java.util.concurrent_ package and we
 
 We create two threads, an odd thread, and an even thread. The odd thread would print the odd numbers starting from 1, and the even thread will print the even numbers starting from 2.
 
-Both the threads have an object of the _SharedPrinter_ class. **The **_**SharedPrinter**_** class will have two semaphores, **_**semOdd**_** and **_**semEven**_** which will have 1 and 0 permits to start with**. This will ensure that odd number gets printed first.
+Both the threads have an object of the _SharedPrinter_ class. **The&#x20;**_**SharedPrinter**_**&#x20;class will have two semaphores,&#x20;**_**semOdd**_**&#x20;and&#x20;**_**semEven**_**&#x20;which will have 1 and 0 permits to start with**. This will ensure that odd number gets printed first.
 
 We have two methods _printEvenNum()_ and _printOddNum()._ The odd thread calls the _printOddNum()_ method and the even thread calls the _printEvenNum()_ method.
 

@@ -27,7 +27,7 @@ In narrow sense, refers to the cost transfering data between GPU DRAM and SRAM -
 >
 > 再假如我们想要访问 32MB 的指针链（1,000,000 个随机顺序的指针）：当使用桌面级处理器时，这个过程通常需要花费 100,000,000 个周期，而当使用服务器级处理器时，这个过程则只需要花费 50,000,000 个周期。二者的区别在于桌面级处理器的片上缓存空间不足以存放下全部的指针链，而服务器级处理器可以，访问片上缓存所花费的周期小于访问主存。
 >
-> 在第一个例子中，我们取得加速不是因为使用了不同的技术，而单纯因为使用了更多的带宽资源；而第二个例子中，我们取得加速只能通过使用不同的硬件。事实上这两个例子就分别对应着 HPC Challenge benchmark 中的 **PTRANS（Parallel Transpose）**和 **Random Access**，一般而言优化前者比后者更容易。
+> 在第一个例子中，我们取得加速不是因为使用了不同的技术，而单纯因为使用了更多的带宽资源；而第二个例子中，我们取得加速只能通过使用不同的硬件。事实上这两个例子就分别对应着 HPC Challenge benchmark 中的 **PTRANS（Parallel Transpose）**&#x548C; **Random Access**，一般而言优化前者比后者更容易。
 
 Latency bound -> bandwidth bound
 

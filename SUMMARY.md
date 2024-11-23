@@ -6,8 +6,8 @@
 
 * [Python: Queue](python/python-queue.md)
 * [Python: iterable vs. iterator](python/python-iterable-vs.-iterator.md)
-* [Python: \_\_init\_\_ vs. \_\_new\_\_](python/python-\_\_init\_\_-vs.-\_\_new\_\_.md)
-* [Python: \_\_slots\_\_](python/python-\_\_slots\_\_.md)
+* [Python: \_\_init\_\_ vs. \_\_new\_\_](python/python-__init__-vs.-__new__.md)
+* [Python: \_\_slots\_\_](python/python-__slots__.md)
 * [Python: mixin](python/python-mixin.md)
 * [Special methods](python/special-methods.md)
 * [Python: generator](python/python-generator.md)
@@ -33,7 +33,7 @@
 * [C++: Heaps & Priority Queues](c++/c++-heaps-and-priority-queues.md)
 * [The Rule of Three](c++/the-rule-of-three.md)
 * [Iterator increment](c++/iterator-increment.md)
-* [C++: emplace\_back() vs. push\_back()](c++/c++-emplace\_back-vs.-push\_back.md)
+* [C++: emplace\_back() vs. push\_back()](c++/c++-emplace_back-vs.-push_back.md)
 * [Where is const stored?](c++/where-is-const-stored.md)
 * [C++: extern](c++/c++-extern.md)
 * [C++: inline function](c++/c++-inline-function.md)
@@ -155,13 +155,14 @@
 * [Quick sort partition](algorithm/quick-sort-partition.md)
 * [Date](algorithm/date.md)
 * [Check given x is an Integer](algorithm/check-given-x-is-an-integer.md)
-* [起手式](algorithm/qi-shou-shi.md)
+* [C++ style template](algorithm/c++-style-template.md)
 * [Constraints](algorithm/constraints.md)
 * [Matching Machine](algorithm/matching-machine.md)
 * [Token Bucket](algorithm/token-bucket.md)
 * [Topological Sort](algorithm/topological-sort.md)
 * [Trie](algorithm/trie.md)
 * [RankedDict](algorithm/rankeddict.md)
+* [DFS template](algorithm/dfs-template.md)
 
 ## OS
 

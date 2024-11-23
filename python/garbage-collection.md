@@ -68,7 +68,7 @@ Garbage collection here stands for the gc algorithm adopted when there is circul
 > 4. 在步骤3中不能被释放的对象, 如果他们引用着某个对象, 被引用的对象也是不能被释放的, 因此将这些 对象也放入另一个集合中.
 > 5. 此时还剩下的对象都是无法到达的对象. 现在可以释放这些对象了.
 
-> 　　除此之外, Python还将所有对象根据’生存时间’分为3代, 从0到2. 所有新创建的对象都分配为第0代. 当这些对象 经过一次垃圾回收仍然存在则会被放入第1代中. 如果第1代中的对象在一次垃圾回收之后仍然存货则被放入第2代. 对于不同代的对象Python的回收的频率也不一样. 可以通过**`gc.set_threshold(threshold0[, threshold1[, threshold2]])`** 来定义. 当Python的垃圾回收器中新增的对象数量减去删除的对象数量大于threshold0时, Python会对第0代对象 执行一次垃圾回收. 每当第0代被检查的次数超过了threshold1时, 第1代对象就会被执行一次垃圾回收. 同理每当 第1代被检查的次数超过了threshold2时, 第2代对象也会被执行一次垃圾回收.
+> 　　除此之外, Python还将所有对象根据’生存时间’分为3代, 从0到2. 所有新创建的对象都分配为第0代. 当这些对象 经过一次垃圾回收仍然存在则会被放入第1代中. 如果第1代中的对象在一次垃圾回收之后仍然存货则被放入第2代. 对于不同代的对象Python的回收的频率也不一样. 可以通&#x8FC7;**`gc.set_threshold(threshold0[, threshold1[, threshold2]])`** 来定义. 当Python的垃圾回收器中新增的对象数量减去删除的对象数量大于threshold0时, Python会对第0代对象 执行一次垃圾回收. 每当第0代被检查的次数超过了threshold1时, 第1代对象就会被执行一次垃圾回收. 同理每当 第1代被检查的次数超过了threshold2时, 第2代对象也会被执行一次垃圾回收.
 
 ## Solve memory leak
 
@@ -164,11 +164,11 @@ A practice to locate memory leak/circular reference and eliminate them:
 
 Print number of instances/objects of certain class (`show_most_common_types`**,** `show_growth`)&#x20;
 
-\-> Large number of objects indicate possible memory leak or circular reference
+-> Large number of objects indicate possible memory leak or circular reference
 
 For memory leak, `gc.collect()` then `obj.show_most_common_types()` again, if objects number doesnot decrease -> memory leak&#x20;
 
-\-> Detect how memory leak happened with `objgraph.show_backrefs`
+-> Detect how memory leak happened with `objgraph.show_backrefs`
 
 
 
@@ -176,7 +176,7 @@ For circular reference, check whether the objects are referred by variables from
 
 Alternatively, `gc.set_debug()` to print collectable objects.
 
-\-> Manually delete objects after exits their scope, or use `weakref`
+-> Manually delete objects after exits their scope, or use `weakref`
 
 ## References
 

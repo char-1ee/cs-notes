@@ -65,6 +65,6 @@ hostname
 
 **!IMPORTANTLY**
 
-* R_equesting_ these resources only means that these are made available to you. Your job may end up using less memory, or less time, or fewer nodes than you have requested, and it will still run.
+* &#x52;_&#x65;questing_ these resources only means that these are made available to you. Your job may end up using less memory, or less time, or fewer nodes than you have requested, and it will still run.
 * Our job was killed for exceeding the amount of resources it requested.&#x20;
 

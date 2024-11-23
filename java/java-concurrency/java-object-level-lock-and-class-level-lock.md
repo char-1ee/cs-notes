@@ -2,7 +2,7 @@
 description: 对象锁和类锁, synchronized and static synchronized
 ---
 
-# Object-level Lock and Class-level Lock
+# Java: object-level lock & class-level lock
 
 ### Object-level Lock
 
@@ -10,7 +10,7 @@ Or instance lock. We have three ways to use a instance lock:
 
 #### Lock on a non-static variable in a instance
 
-Since a non-static variable is only owned by this instance_,_ not shared by other instances, so the non-static variables declared in an instance can put in a synchronized block. The methods synchronize a same non-static field share a lock.
+Since a non-static variable is only owned by this instanc&#x65;_,_ not shared by other instances, so the non-static variables declared in an instance can put in a synchronized block. The methods synchronize a same non-static field share a lock.
 
 ```java
 private Object lock = new Object();
