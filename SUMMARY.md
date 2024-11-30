@@ -200,7 +200,8 @@
   * [Server-Sent Events (SSE)](system-design/why-cant-inspect-twitter-web/server-sent-events-sse.md)
 * [CAP theorem](system-design/cap-theorem.md)
 * [Actor model](system-design/actor-model.md)
-* [Distributed AI task scheduling (Infinigence)](system-design/distributed-ai-task-scheduling-infinigence.md)
+* [Distributed AI task scheduling](system-design/distributed-ai-task-scheduling.md)
+* [How to collect logs in K8S](system-design/how-to-collect-logs-in-k8s.md)
 
 ## Backend
 

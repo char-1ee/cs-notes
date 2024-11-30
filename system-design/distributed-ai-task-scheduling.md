@@ -2,19 +2,19 @@
 description: https://www.zhihu.com/question/460421443/answer/3603399915
 ---
 
-# Distributed AI task scheduling (Infinigence)
+# Distributed AI task scheduling
 
 In a heterogeneous computing scenario, different nodes within a cluster have different status and compute capabilities (e.g. GPU). When a pod is created, it relies on a **Scheduler** to arrange it to certain node.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>K8S, Pod, Node</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>K8S, Pod, Node</p></figcaption></figure>
 
 Conventionally, the `kube-scheduler` meets all pod-to-node scheduling needs, by k8s native support including node affinity, taint and tolerance, nodeSelector etc. It adopts Predicate and Priority polices:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>How kube-scheduler arrange pods</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>How kube-scheduler arrange pods</p></figcaption></figure>
 
 Predicate: remove the nodes without enough resources and the nodes that violates users' polices; Priority: score remaining nodes and finally arrange the pod to the node with highest score.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Example</p></figcaption></figure>
 
 However, in production environment, it is still users's responsibility to consider a proper scheduling strategy that maximizes resource utilites, maximizes Pod performance, avoid idle of machine and waste of resources.
 
