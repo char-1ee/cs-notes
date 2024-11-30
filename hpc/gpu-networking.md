@@ -16,7 +16,7 @@ Multi-node multi-card networking:
 
 * GPUDirect P2P (Direct access + direct transfer)
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>P2P</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>P2P</p></figcaption></figure>
 
 * GPUDirect RDMA: data transferring between GPU and RDMA&#x20;
 

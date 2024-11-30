@@ -1,8 +1,12 @@
 ---
-description: in API development
+description: Page + Offset, Cursor-based
 ---
 
-# Pagination
+# API pagination
+
+### Page + Offset
+
+
 
 `LIMIT` specifies the maximum number of rows to return in the result set. For example, if you set `LIMIT` to 10, the result set will contain a maximum of 10 rows.
 
@@ -15,6 +19,22 @@ How offset and limit match pgno and pgsz:
 * OFFSET: The `OFFSET` value is calculated by multiplying the page number minus 1 by the page size. For example, if the page size is 20 and you want to display page 3, the `OFFSET` value would be 40 (i.e., `OFFSET` = (3 - 1) \* 20).
 * LIMIT: The `LIMIT` value is simply set to the page size. For example, if the page size is 20, the `LIMIT` value would be 20.
 
-### Update
+#### Update
 
 Noticed that response should include field `count`, which indicate how many records existing in DB so that FE can use that \`count\` with pgsz and pgno for rendering.
+
+#### Update (30/11/2024)
+
+Page-based
+
+<div align="left"><figure><img src="../.gitbook/assets/pg (2).jpg" alt="" width="287"><figcaption></figcaption></figure></div>
+
+Offset-based&#x20;
+
+<div align="left"><figure><img src="../.gitbook/assets/image (31).png" alt="" width="278"><figcaption></figcaption></figure></div>
+
+```sql
+SELECT * FROM table LIMIT 10 OFFSET 20;
+```
+
+However it might perform bad for large scale and rapid changing dataset.

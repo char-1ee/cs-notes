@@ -201,7 +201,8 @@
 * [CAP theorem](system-design/cap-theorem.md)
 * [Actor model](system-design/actor-model.md)
 * [Distributed AI task scheduling](system-design/distributed-ai-task-scheduling.md)
-* [How to collect logs in K8S](system-design/how-to-collect-logs-in-k8s.md)
+* [How to deploy log shipper in K8S](system-design/how-to-deploy-log-shipper-in-k8s.md)
+* [Kafka use cases](system-design/kafka-use-cases.md)
 
 ## Backend
 
@@ -209,7 +210,7 @@
 * [Database indexing](backend/database-indexing.md)
 * [Backend development basis](backend/backend-development-basis.md)
 * [API optimization](backend/api-optimization.md)
-* [Pagination](backend/pagination.md)
+* [API pagination](backend/api-pagination.md)
 * [How to maintain login status](backend/how-to-maintain-login-status.md)
 * [How to store historical data](backend/how-to-store-historical-data.md)
 

@@ -10,7 +10,7 @@
 6. Prefill阶段能充分使用算力，Decode阶段不能
 7. Decode阶段可以使用性能较弱、成本较低的设备
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### KV cache transfer
 

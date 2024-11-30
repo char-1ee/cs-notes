@@ -1,4 +1,4 @@
-# How to collect logs in K8S
+# How to deploy log shipper in K8S
 
 In normal case, we can write direct application level logic that sends logs to the logging backend, e.g. connect to Kafka cluster via gRPC. To collect logs from services deployed in K8S environment, we have alternatives including:
 
@@ -7,7 +7,7 @@ In normal case, we can write direct application level logic that sends logs to t
 
 ### DaemonSet pattern
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>DaemonSet logging</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>DaemonSet logging</p></figcaption></figure>
 
 #### Container Runtime -> Node File System
 
@@ -72,3 +72,7 @@ DaemonSet is better when:
 * You want centralized logging configuration
 * Resource efficiency is important (fewer total agents)
 * You need to collect node-level logs as well
+
+A hybrid design:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Hybrid design</p></figcaption></figure>
