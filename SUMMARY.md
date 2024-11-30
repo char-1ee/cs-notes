@@ -163,6 +163,7 @@
 * [Trie](algorithm/trie.md)
 * [RankedDict](algorithm/rankeddict.md)
 * [DFS template](algorithm/dfs-template.md)
+* [BFS template](algorithm/bfs-template.md)
 
 ## OS
 
