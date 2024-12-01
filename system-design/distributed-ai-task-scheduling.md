@@ -10,7 +10,7 @@ In a heterogeneous computing scenario, different nodes within a cluster have dif
 
 Conventionally, the `kube-scheduler` meets all pod-to-node scheduling needs, by k8s native support including node affinity, taint and tolerance, nodeSelector etc. It adopts Predicate and Priority polices:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>How kube-scheduler arrange pods</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>How kube-scheduler arrange pods</p></figcaption></figure>
 
 Predicate: remove the nodes without enough resources and the nodes that violates users' polices; Priority: score remaining nodes and finally arrange the pod to the node with highest score.
 

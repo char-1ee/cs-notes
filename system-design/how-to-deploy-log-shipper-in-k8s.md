@@ -7,7 +7,7 @@ In normal case, we can write direct application level logic that sends logs to t
 
 ### DaemonSet pattern
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>DaemonSet logging</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>DaemonSet logging</p></figcaption></figure>
 
 #### Container Runtime -> Node File System
 
@@ -75,4 +75,4 @@ DaemonSet is better when:
 
 A hybrid design:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Hybrid design</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Hybrid design</p></figcaption></figure>
