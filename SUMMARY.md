@@ -115,6 +115,7 @@
 * [SSH basics](hpc/ssh-basics.md)
 * [SSH Tunneling](hpc/ssh-tunneling.md)
 * [SSH ProxyJump](hpc/ssh-proxyjump.md)
+* [Page](hpc/page.md)
 * [Singularity](hpc/singularity.md)
 * [Scheduler](hpc/scheduler.md)
 * [System admin](hpc/system-admin.md)
@@ -133,6 +134,7 @@
 * [NCCL](hpc/nccl.md)
 * [How to trace high CPU usage thread](hpc/how-to-trace-high-cpu-usage-thread.md)
 * [How to create shared directory across nodes](hpc/how-to-create-shared-directory-across-nodes.md)
+* [Distribute files to tenants on server](hpc/distribute-files-to-tenants-on-server.md)
 * [GPU Bound](hpc/gpu-bound.md)
 * [Timing CUDA kernals](hpc/timing-cuda-kernals.md)
 
