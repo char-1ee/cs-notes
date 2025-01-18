@@ -205,7 +205,7 @@
 * [Actor model](system-design/actor-model.md)
 * [Distributed AI task scheduling](system-design/distributed-ai-task-scheduling.md)
 * [How to deploy log shipper in K8S](system-design/how-to-deploy-log-shipper-in-k8s.md)
-* [Kafka use cases](system-design/kafka-use-cases.md)
+* [Why do we need message queue](system-design/why-do-we-need-message-queue.md)
 
 ## Backend
 
