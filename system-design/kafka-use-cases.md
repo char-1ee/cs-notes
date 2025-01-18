@@ -122,20 +122,17 @@ Then the Record and Compensation method is:
 
 > 给人的直觉是——MQ是异步的，用来解耦的，但是这个只是MQ的效果而不是目的。MQ真正的目的是为了**通讯**，屏蔽底层复杂的通讯协议，定义了一套应用层的、更加简单的通讯协议。一个分布式系统中两个模块之间通讯要么是HTTP，要么是自己开发的TCP，但是这两种协议其实都是原始的协议。HTTP协议很难实现两端通讯——模块A可以调用B，B也可以主动调用A，如果要做到这个两端都要背上WebServer，而且还不支持长连接（HTTP 2.0的库根本找不到）。TCP就更加原始了，[粘包](https://zhida.zhihu.com/search?content_id=252330922\&content_type=Article\&match_order=1\&q=%E7%B2%98%E5%8C%85\&zhida_source=entity)、心跳、私有的协议，想一想头皮就发麻。MQ所要做的就是在这些协议之上构建一个简单的“协议”——生产者/消费者模型。MQ带给我的“协议”不是具体的通讯协议，而是更高层次通讯模型。它定义了两个对象——发送数据的叫生产者；消费数据的叫消费者， 提供一个SDK让我们可以定义自己的生产者和消费者实现消息通讯而无视底层通讯协议。
 
-### 重Topic (Kafka)
+#### 重Topic (Kafka)
 
 <figure><img src="https://kbvr6jx29l.larksuite.com/space/api/box/stream/download/asynccode/?code=ZTY4ZGJlNWRhNThmYzc2NDI1MjM3ZjNlZjczMTRhNmZfY0J2SWw4NDhWeDRRNlp1V0RVbDA1VldoU3Fkb20wVDJfVG9rZW46T2lYdWI1c3p3b2lZN1l4UDN2NHVlSmJGczBkXzE3MzcyMjU3OTE6MTczNzIyOTM5MV9WNA" alt=""><figcaption></figcaption></figure>
 
-### 轻Topic (RabbitMQ)
+#### 轻Topic (RabbitMQ)
 
 <figure><img src="https://kbvr6jx29l.larksuite.com/space/api/box/stream/download/asynccode/?code=NTdmMWU5MTBlM2NkMGIxYWFkMjU0NWU2NTYyMDUxOGFfTnpoNHlRM3NmU2pZTUFpVGNpV3paY3VTQjFZUjlvUXpfVG9rZW46Q3BPS2JYQXA2b09sWlN4Zkw5WHVteDdvc3lnXzE3MzcyMjU3OTE6MTczNzIyOTM5MV9WNA" alt=""><figcaption></figcaption></figure>
 
-### 无broker (zeromq)
+#### 无broker (zeromq)
 
-\
-
-
-<figure><img src="https://kbvr6jx29l.larksuite.com/space/api/box/stream/download/asynccode/?code=OWU3OTUyOWZjYjI3NjUxZDlmMWRlNzUyNjAzMDY4YTlfYmM1UlJad2puR0hEN0Z6UXdRV1FoMWV4dGJmZlc0RWRfVG9rZW46U2pUdWJBUGZJb1ZIU0N4R1hCQnU4WFNkc1Z2XzE3MzcyMjU3OTE6MTczNzIyOTM5MV9WNA" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://kbvr6jx29l.larksuite.com/space/api/box/stream/download/asynccode/?code=OWU3OTUyOWZjYjI3NjUxZDlmMWRlNzUyNjAzMDY4YTlfYmM1UlJad2puR0hEN0Z6UXdRV1FoMWV4dGJmZlc0RWRfVG9rZW46U2pUdWJBUGZJb1ZIU0N4R1hCQnU4WFNkc1Z2XzE3MzcyMjU3OTE6MTczNzIyOTM5MV9WNA" alt="" width="375"><figcaption></figcaption></figure>
 
 > kafka，zeromq，rabbitmq代表了三种完全不同风格的MQ架构；关注点完全不同：
 >
