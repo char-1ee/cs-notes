@@ -76,6 +76,7 @@
 * [(FP) Map Reduce Filter](go/fp-map-reduce-filter.md)
 * [(FP) Functional Options](go/fp-functional-options.md)
 * [(FP) Pipeline](go/fp-pipeline.md)
+* [(FP) ErrorCounter](go/fp-errorcounter.md)
 * [(FP) OptionSet](go/fp-optionset.md)
 * [Implement a locked cache](go/implement-a-locked-cache.md)
 * [Implement a cronjob](go/implement-a-cronjob.md)
