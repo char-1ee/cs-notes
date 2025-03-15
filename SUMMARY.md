@@ -137,6 +137,7 @@
 * [How to trace high CPU usage thread](hpc/how-to-trace-high-cpu-usage-thread.md)
 * [How to create shared directory across nodes](hpc/how-to-create-shared-directory-across-nodes.md)
 * [Distribute files to tenants on server](hpc/distribute-files-to-tenants-on-server.md)
+* [What should SRE know about \`exec\` command](hpc/what-should-sre-know-about-exec-command.md)
 * [GPU Bound](hpc/gpu-bound.md)
 * [Timing CUDA kernals](hpc/timing-cuda-kernals.md)
 
