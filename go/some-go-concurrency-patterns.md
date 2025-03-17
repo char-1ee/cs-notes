@@ -1,6 +1,6 @@
 # Some Go concurrency patterns
 
-#### 1. Basic channel
+### Basic channel
 
 ```go
 // Pattern 1: basic channel
@@ -20,7 +20,7 @@ func basicChannelPattern() {
 }
 ```
 
-#### 2. Select for multiple channels
+### Select for multiple channels
 
 ```go
 // Pattern 2: Select for multiple channels
@@ -44,7 +44,7 @@ func selectPattern() {
 }
 ```
 
-#### 3. Worker pool
+### Worker pool
 
 ```go
 // Pattern 3: Worker pool
@@ -63,7 +63,7 @@ func workPool(nWorkers int, jobs <-chan Job, results chan<- Result) {
     wg.Wait()
 ```
 
-#### 4. Barrier synchronization
+### Barrier synchronization
 
 ```go
 // Pattern 4: Barrier synchronization 
@@ -99,7 +99,7 @@ go initAPI(barrier)
 // Start system
 ```
 
-#### 5. Pipeline
+### Pipeline
 
 ```go
 // Pattern 5: Pipeline

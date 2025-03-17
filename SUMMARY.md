@@ -85,6 +85,10 @@
 * [API Practices in Go](go/api-practices-in-go.md)
 * [Some Go concurrency patterns](go/some-go-concurrency-patterns.md)
 
+***
+
+* [Execute-once then run on interval](execute-once-then-run-on-interval.md)
+
 ## Design pattern
 
 * [Chain-of-responsibility](design-pattern/chain-of-responsibility.md)
