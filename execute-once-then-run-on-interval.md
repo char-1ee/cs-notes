@@ -26,3 +26,14 @@ func UpdateClusterDeployments(vdcs []string, wg *sync.WaitGroup) {
 
 1. **Immediate first execution**: the functions runs once immediately when called
 2. **Periodic subsequent execution:** after the first run, it continues to execute ar regular intervals
+
+Then in main program
+
+```go
+inited = new(sync.WaitGroup)
+inited.Add(1)
+go UpdateClusterDeployments(vdcs, wg)
+inited.Wait()
+```
+
+The UpdateClusterdeployment will run in background.
